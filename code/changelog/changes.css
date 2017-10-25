@@ -1,0 +1,4 @@
+BODY{background-color:silver;}
+div.change_hidden{display:none;}
+div.change_shown{display:block;}
+div.change_child{display:block;margin-left:10px;border-bottom:thin solid black;}

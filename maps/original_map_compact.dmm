@@ -1,0 +1,439 @@
+"aa" = (/turf/water,/area)
+"ab" = (/turf/wall,/area)
+"ac" = (/obj/bookcase{dir = 1},/turf/floor,/area)
+"ad" = (/obj/bookcase{dir = 4},/turf/floor,/area)
+"ae" = (/obj/filecabinet,/turf/floor,/area)
+"af" = (/obj/trashcan,/turf/floor,/area)
+"ag" = (/obj/plants/large,/turf/floor,/area)
+"ah" = (/turf/floor,/area)
+"ai" = (/obj/stool/chair,/turf/floor,/area)
+"aj" = (/obj/table{icon_state = "sides"; dir = 4},/turf/floor,/area)
+"ak" = (/obj/signal/computer,/turf/floor,/area)
+"al" = (/obj/table{icon_state = "corners"; dir = 10},/turf/floor,/area)
+"am" = (/obj/table{icon_state = "sides"; dir = 2},/turf/floor,/area)
+"an" = (/obj/plants,/obj/table{icon_state = "corners"; dir = 6},/turf/floor,/area)
+"ao" = (/obj/table,/turf/floor,/area)
+"ap" = (/obj/stool/chair{dir = 8},/turf/floor,/area)
+"aq" = (/obj/stool,/turf/floor,/area)
+"ar" = (/obj/plants,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area)
+"as" = (/obj/signal/printer,/obj/table{icon_state = "corners"; dir = 5},/turf/floor,/area)
+"at" = (/obj/table{icon_state = "corners"; dir = 9},/turf/floor,/area)
+"au" = (/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area)
+"av" = (/obj/table{icon_state = "corners"; dir = 5},/turf/floor,/area)
+"aw" = (/obj/signal/box{dir = 4; keycode = "Judge Tration"; d_dir = 6},/turf/floor,/area)
+"ax" = (/obj/sign{name = "Private Chambers"},/turf/wall,/area)
+"ay" = (/obj/signal/notarizer,/obj/table{icon_state = "sides"; dir = 4},/turf/floor,/area)
+"az" = (/obj/table{icon_state = "corners"; dir = 6},/turf/floor,/area)
+"aA" = (/obj/stool/chair{dir = 4},/turf/floor,/area)
+"aB" = (/obj/table{icon_state = "sides"; dir = 4},/obj/signal/scanner,/turf/floor,/area)
+"aC" = (/obj/stool/chair{dir = 1},/turf/floor,/area)
+"aD" = (/obj/signal/computer,/obj/table{icon_state = "sides"; dir = 4},/turf/floor,/area)
+"aE" = (/obj/signal/box{dir = 2; keycode = "Law and Order: SVU"},/turf/floor,/area)
+"aF" = (/obj/sign{name = "Marketplace"},/turf/wall,/area)
+"aG" = (/obj/window{dir = 4},/turf/floor,/area)
+"aH" = (/obj/sign{name = "Courtroom"},/obj/window{dir = 6},/turf/floor,/area)
+"aI" = (/obj/bulletin{pixel_y = 32},/turf/floor,/area)
+"aJ" = (/obj/window{dir = 6},/turf/floor,/area)
+"aK" = (/obj/signal/box{dir = 1; keycode = "glasses"; d_dir = 9},/turf/floor,/area)
+"aL" = (/obj/sign{name = "Marketplace"},/obj/window{dir = 6},/turf/floor,/area)
+"aM" = (/obj/window,/turf/floor,/area)
+"aN" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"aO" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"aP" = (/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"aQ" = (/obj/signal/converter,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"aR" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"aS" = (/obj/signal/antenna/dish,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"aT" = (/obj/signal/dir_ant,/turf/floor,/area)
+"aU" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"aV" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"aW" = (/obj/electronic,/turf/wall,/area)
+"aX" = (/obj/conveyor,/turf/wall,/area)
+"aY" = (/obj/table,/obj/signal/computer,/turf/floor,/area)
+"aZ" = (/obj/signal/printer,/obj/table,/turf/floor,/area)
+"ba" = (/obj/signal/box{dir = 8; keycode = "systems"; d_dir = 9},/turf/floor,/area)
+"bb" = (/obj/items/toolbox,/turf/floor,/area)
+"bc" = (/obj/table{icon_state = "sides"; dir = 8},/turf/floor,/area)
+"bd" = (/obj/shredder,/obj/table{icon_state = "sides"; dir = 8},/turf/floor,/area)
+"be" = (/obj/signal/box{dir = 8; keycode = "control"; d_dir = 9},/turf/floor,/area)
+"bf" = (/obj/signal/intercom,/obj/window{dir = 6},/turf/floor,/area)
+"bg" = (/obj/signal/microphone,/obj/table{icon_state = "corners"; dir = 9},/turf/floor,/area)
+"bh" = (/obj/table{icon_state = "sides"; dir = 8},/obj/signal/scanner,/turf/floor,/area)
+"bi" = (/obj/items/paper{name = "paper-'The Identity Property will help you inside'"},/turf/floor,/area)
+"bj" = (/obj/signal/box{dir = 2; keycode = "materials transfer"; d_dir = 6},/turf/floor,/area)
+"bk" = (/obj/signal/antenna,/obj/table{icon_state = "corners"; dir = 10},/turf/floor,/area)
+"bl" = (/obj/signal/notarizer,/obj/table{icon_state = "corners"; dir = 6},/turf/floor,/area)
+"bm" = (/obj/signal/box{dir = 2; keycode = "rent"},/turf/floor,/area)
+"bn" = (/obj/signal/box{keycode = "31diorDnaM"},/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"bo" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"bp" = (/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"bq" = (/obj/table{icon_state = "corners"; dir = 9},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"br" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/printer,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"bs" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"bt" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"bu" = (/obj/table{icon_state = "sides"; dir = 1},/obj/copier,/turf/floor,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"bv" = (/obj/signal/printer,/obj/table{icon_state = "corners"; dir = 10},/turf/floor,/area)
+"bw" = (/obj/sign{name = "Materials Transfer"},/turf/wall,/area)
+"bx" = (/obj/sign{name = "Private Computer Rentals"; icon_state = "sign"},/obj/window{dir = 6},/turf/floor,/area)
+"by" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Mandroid13's Lab"; owner = "mandroid13"})
+"bz" = (/obj/sign{name = "ManDroid13's Lab"},/turf/wall,/area)
+"bA" = (/obj/signal/antenna,/turf/floor,/area)
+"bB" = (/obj/shredder,/obj/table{icon_state = "corners"; dir = 5},/turf/floor,/area)
+"bC" = (/obj/items/not_check,/obj/table{icon_state = "sides"; dir = 4},/turf/floor,/area)
+"bD" = (/obj/sign{name = "Printing Room"},/turf/wall,/area)
+"bE" = (/obj/sign{name = "Free Lab, first come first use"},/turf/wall,/area)
+"bF" = (/obj/signal/intercom,/turf/wall,/area)
+"bG" = (/obj/window{dir = 6},/obj/shutter{pcode = "wonkymon"},/turf/floor,/area)
+"bH" = (/obj/sign{name = "Derantell's Lab"},/turf/wall,/area)
+"bI" = (/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bJ" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 8},/turf/floor,/area)
+"bK" = (/obj/signal/box{dir = 1; keycode = "freelab1"; d_dir = 9; open_lab = 1},/turf/floor,/area)
+"bL" = (/obj/signal/hub,/turf/floor,/area)
+"bM" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bN" = (/obj/signal/shutter_box{tag = "icon-box (NORTH)"; icon_state = "box"; dir = 1},/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bO" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bP" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bQ" = (/obj/signal/box{dir = 1; keycode = "wonkymon"; d_dir = 9},/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bR" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bS" = (/obj/signal/box{dir = 1; keycode = "freelab2"; d_dir = 9; open_lab = 1},/turf/floor,/area)
+"bT" = (/obj/signal/microphone,/obj/table{icon_state = "sides"; dir = 4},/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bU" = (/obj/items/not_check,/obj/table{icon_state = "sides"; dir = 4},/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bV" = (/obj/table{icon_state = "sides"; dir = 4},/obj/signal/microphone,/turf/floor,/area)
+"bW" = (/obj/signal/notarizer,/obj/table{icon_state = "sides"; dir = 8},/turf/floor,/area)
+"bX" = (/obj/signal/hub/router,/turf/floor,/area)
+"bY" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 4},/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"bZ" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"ca" = (/obj/table{icon_state = "sides"; dir = 4},/obj/shredder,/turf/floor,/area)
+"cb" = (/obj/table{icon_state = "sides"; dir = 4},/obj/shredder,/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"cc" = (/obj/table{icon_state = "sides"; dir = 4},/obj/signal/printer,/turf/floor,/area)
+"cd" = (/obj/copier,/turf/floor,/area)
+"ce" = (/obj/items/ult_check,/obj/table{icon_state = "sides"; dir = 8},/turf/floor,/area)
+"cf" = (/obj/signal/scanner,/obj/table{icon_state = "sides"; dir = 4},/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"cg" = (/obj/signal/antenna/dish,/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"ch" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Derantell's Lab"; owner = "derantell"})
+"ci" = (/obj/plants,/obj/table{icon_state = "sides"; dir = 8},/turf/floor,/area)
+"cj" = (/obj/bookcase{dir = 8},/turf/floor,/area)
+"ck" = (/obj/signal/box{dir = 8; keycode = "burritos"},/turf/floor,/area)
+"cl" = (/obj/signal/microphone,/obj/table{icon_state = "sides"; dir = 8},/turf/floor,/area)
+"cm" = (/obj/signal/box{dir = 8; keycode = "open"},/turf/floor,/area)
+"cn" = (/obj/sign{name = "Teaching Area"},/obj/window{dir = 6},/turf/floor,/area)
+"co" = (/obj/sign{name = "Router Control"},/turf/wall,/area)
+"cp" = (/obj/signal/bounce,/turf/floor,/area)
+"cq" = (/obj/signal/switchboard,/turf/floor,/area)
+"cr" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area)
+"cs" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/printer,/turf/floor,/area)
+"ct" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area)
+"cu" = (/obj/sign{name = "Broadcasting Hub"},/turf/wall,/area)
+"cv" = (/obj/items/inv_pen,/obj/items/pen,/obj/items/paper,/obj/table{icon_state = "corners"; dir = 6},/turf/floor,/area)
+"cw" = (/obj/bookcase,/turf/floor,/area)
+"cx" = (/obj/signal/printer,/obj/table{icon_state = "corners"; dir = 9},/turf/floor,/area)
+"cy" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area)
+"cz" = (/obj/signal/converter,/turf/floor,/area)
+"cA" = (/obj/sign{name = "Telecommunications Center (incomplete)"},/turf/wall,/area)
+"cB" = (/obj/sign{name = "The Library"},/turf/wall,/area)
+"cC" = (/obj/signal/microphone,/obj/table{icon_state = "corners"; dir = 10},/turf/floor,/area)
+"cD" = (/obj/shredder,/obj/table{icon_state = "sides"; dir = 2},/turf/floor,/area)
+"cE" = (/obj/shredder,/obj/table{icon_state = "corners"; dir = 6},/turf/floor,/area)
+"cF" = (/obj/signal/infared,/turf/floor,/area)
+"cG" = (/obj/items/ult_check,/obj/table{icon_state = "corners"; dir = 9},/turf/floor,/area)
+"cH" = (/obj/signal/microphone,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area)
+"cI" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area)
+"cJ" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/scanner,/turf/floor,/area)
+"cK" = (/obj/sign{name = "Private Cubicles"},/turf/wall,/area)
+"cL" = (/obj/sign{name = "Networking Hub"},/turf/wall,/area)
+"cM" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"cN" = (/obj/signal/microphone,/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"cO" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"cP" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"cQ" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"cR" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Omnitek"})
+"cS" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Omnitek"})
+"cT" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Omnitek"})
+"cU" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Revolution Corp."})
+"cV" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Revolution Corp."})
+"cW" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Revolution Corp."})
+"cX" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Sodasoft"})
+"cY" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Sodasoft"})
+"cZ" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Sodasoft"})
+"da" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"db" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"dc" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"dd" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"de" = (/obj/signal/box{dir = 8; keycode = "burritowagon"},/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"df" = (/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"dg" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Omnitek"})
+"dh" = (/obj/signal/box{dir = 8; keycode = "mytown1"},/turf/floor,/area/save_location{name = "Omnitek"})
+"di" = (/turf/floor,/area/save_location{name = "Omnitek"})
+"dj" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Omnitek"})
+"dk" = (/obj/signal/box{dir = 8; keycode = "rattlesnake"},/turf/floor,/area/save_location{name = "Revolution Corp."})
+"dl" = (/turf/floor,/area/save_location{name = "Revolution Corp."})
+"dm" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Revolution Corp."})
+"dn" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Sodasoft"})
+"do" = (/obj/signal/box{dir = 8; keycode = "armormine"},/turf/floor,/area/save_location{name = "Sodasoft"})
+"dp" = (/turf/floor,/area/save_location{name = "Sodasoft"})
+"dq" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Sodasoft"})
+"dr" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"ds" = (/obj/signal/box{dir = 8; keycode = "private"},/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"dt" = (/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"du" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"dv" = (/obj/sign{name = "Lyndon's Lab"},/turf/wall,/area)
+"dw" = (/obj/sign{name = "Omnitek"},/turf/wall,/area)
+"dx" = (/obj/sign{name = "Revolution Corp."},/turf/wall,/area)
+"dy" = (/obj/signal/bounce,/obj/alphanumeric{tag = "icon-1"; icon_state = "1"},/turf/floor,/area)
+"dz" = (/obj/alphanumeric{tag = "icon-2"; icon_state = "2"},/turf/floor,/area)
+"dA" = (/obj/alphanumeric{tag = "icon-3"; icon_state = "3"},/turf/floor,/area)
+"dB" = (/obj/alphanumeric{tag = "icon-4"; icon_state = "4"},/turf/floor,/area)
+"dC" = (/obj/alphanumeric{tag = "icon-5"; icon_state = "5"},/turf/floor,/area)
+"dD" = (/obj/alphanumeric{tag = "icon-6"; icon_state = "6"},/turf/floor,/area)
+"dE" = (/obj/alphanumeric{tag = "icon-7"; icon_state = "7"},/turf/floor,/area)
+"dF" = (/obj/alphanumeric{tag = "icon-8"; icon_state = "8"},/turf/floor,/area)
+"dG" = (/obj/alphanumeric{tag = "icon-9"; icon_state = "9"},/turf/floor,/area)
+"dH" = (/obj/alphanumeric{tag = "icon-10"; icon_state = "10"},/turf/floor,/area)
+"dI" = (/obj/alphanumeric{tag = "icon-11"; icon_state = "11"},/turf/floor,/area)
+"dJ" = (/obj/alphanumeric{tag = "icon-12"; icon_state = "12"},/turf/floor,/area)
+"dK" = (/obj/alphanumeric{tag = "icon-13"; icon_state = "13"},/turf/floor,/area)
+"dL" = (/obj/alphanumeric{tag = "icon-14"; icon_state = "14"},/turf/floor,/area)
+"dM" = (/obj/alphanumeric{tag = "icon-15"; icon_state = "15"},/turf/floor,/area)
+"dN" = (/obj/alphanumeric{tag = "icon-16"; icon_state = "16"},/turf/floor,/area)
+"dO" = (/obj/alphanumeric{tag = "icon-17"; icon_state = "17"},/turf/floor,/area)
+"dP" = (/obj/sign{name = "SodaSoft Inc."},/turf/wall,/area)
+"dQ" = (/obj/sign{name = "Exadv1's Lab"},/turf/wall,/area)
+"dR" = (/obj/window{dir = 6},/obj/shutter,/turf/floor,/area)
+"dS" = (/obj/signal/infared,/turf/floor,/area/save_location{name = "Revolution Corp."})
+"dT" = (/obj/signal/shutter_box{tag = "icon-box (WEST)"; icon_state = "box"; dir = 8},/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"dU" = (/obj/signal/infared,/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"dV" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Omnitek"})
+"dW" = (/obj/signal/infared,/turf/floor,/area/save_location{name = "Omnitek"})
+"dX" = (/obj/signal/bounce,/turf/floor,/area/save_location{name = "Omnitek"})
+"dY" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Revolution Corp."})
+"dZ" = (/obj/signal/bounce,/turf/floor,/area/save_location{name = "Revolution Corp."})
+"ea" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Sodasoft"})
+"eb" = (/obj/signal/bounce,/turf/floor,/area/save_location{name = "Sodasoft"})
+"ec" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"ed" = (/obj/signal/bounce,/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"ee" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"ef" = (/obj/signal/microphone,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Omnitek"})
+"eg" = (/obj/items/not_check,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Omnitek"})
+"eh" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Omnitek"})
+"ei" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Omnitek"})
+"ej" = (/obj/signal/microphone,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Revolution Corp."})
+"ek" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Revolution Corp."})
+"el" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Revolution Corp."})
+"em" = (/obj/signal/microphone,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Sodasoft"})
+"en" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Sodasoft"})
+"eo" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Sodasoft"})
+"ep" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/infared,/turf/floor,/area/save_location{name = "Sodasoft"})
+"eq" = (/obj/signal/microphone,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"er" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"es" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"et" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/infared,/turf/floor,/area/save_location{name = "Exadv1's Lab"; owner = "exadv1"})
+"eu" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"ev" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Lyndon's Lab"; owner = "lyndon"})
+"ew" = (/obj/bulletin{pixel_y = 32},/obj/alphanumeric{tag = "icon-8"; icon_state = "8"},/turf/floor,/area)
+"ex" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"ey" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"ez" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"eA" = (/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"eB" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"eC" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"eD" = (/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eE" = (/obj/signal/converter,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eF" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eG" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eH" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eI" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eJ" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Destruction Co"})
+"eK" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Destruction Co"})
+"eL" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Destruction Co"})
+"eM" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"eN" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eO" = (/obj/signal/box{dir = 8; keycode = "supertang"},/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eP" = (/obj/signal/disk_producer,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eQ" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Destruction Co"})
+"eR" = (/obj/signal/box{dir = 8; keycode = "dirtandsand"},/turf/floor,/area/save_location{name = "Destruction Co"})
+"eS" = (/turf/floor,/area/save_location{name = "Destruction Co"})
+"eT" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Destruction Co"})
+"eU" = (/obj/alphanumeric{tag = "icon-6"; icon_state = "6"},/turf/floor,/area/start)
+"eV" = (/turf/floor,/area/start)
+"eW" = (/obj/alphanumeric{tag = "icon-5"; icon_state = "5"},/turf/floor,/area/start)
+"eX" = (/obj/sign{name = "Ncom Productions"},/turf/wall,/area)
+"eY" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"eZ" = (/obj/sign{name = "Destruction Co. - Genesis"},/turf/wall,/area)
+"fa" = (/obj/alphanumeric{tag = "icon-4"; icon_state = "4"},/turf/floor,/area/start)
+"fb" = (/obj/alphanumeric{tag = "icon-3"; icon_state = "3"},/turf/floor,/area/start)
+"fc" = (/obj/alphanumeric{tag = "icon-2"; icon_state = "2"},/turf/floor,/area/start)
+"fd" = (/obj/sign{name = "Main Computer Laboratory"},/turf/wall,/area)
+"fe" = (/obj/boxrack,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"ff" = (/obj/filecabinet,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fg" = (/obj/alphanumeric{tag = "icon-1"; icon_state = "1"},/turf/floor,/area/start)
+"fh" = (/obj/alphanumeric{tag = "icon-7"; icon_state = "7"},/turf/floor,/area/start)
+"fi" = (/obj/alphanumeric{tag = "icon-1"; icon_state = "1"},/obj/signal/microphone,/turf/floor,/area)
+"fj" = (/obj/signal/bounce,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fk" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Destruction Co"})
+"fl" = (/obj/signal/bounce,/turf/floor,/area/save_location{name = "Destruction Co"})
+"fm" = (/obj/signal/infared,/turf/floor,/area/save_location{name = "Destruction Co"})
+"fn" = (/obj/items/not_check,/obj/table{icon_state = "corners"; dir = 9},/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fo" = (/obj/signal/microphone,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fp" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fq" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/obj/signal/hub/mini,/obj/signal/hub/mini,/obj/signal/hub/mini,/obj/signal/hub/mini,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fr" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/hub/router/mini,/obj/signal/hub/router/mini,/obj/signal/hub/router/mini,/obj/signal/hub/router/mini,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fs" = (/obj/copier,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"ft" = (/obj/signal/antenna/dish,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fu" = (/obj/shredder,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fv" = (/obj/items/not_check,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fw" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fx" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/obj/signal/hub/mini,/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fy" = (/obj/signal/antenna/dish,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"fz" = (/obj/signal/shutter_box{range = 25},/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"fA" = (/obj/table{icon_state = "corners"; dir = 9},/obj/signal/printer,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"fB" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"fC" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"fD" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"fE" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"fF" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "Ncom Productions"; owner = "nadrew"})
+"fG" = (/obj/signal/microphone,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Destruction Co"})
+"fH" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Destruction Co"})
+"fI" = (/obj/signal/printer,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Destruction Co"})
+"fJ" = (/obj/plants,/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "Destruction Co"})
+"fK" = (/obj/bookcase{secret = "Oronar's Playground"},/turf/floor,/area/save_location{name = "Aperture Science North"; owner = "oronar"})
+"fL" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fM" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fN" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fO" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fP" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fQ" = (/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fR" = (/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fS" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fT" = (/turf/wall,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fU" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fV" = (/obj/signal/box{dir = 8; keycode = "superoro"},/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fW" = (/obj/sign{name = "Aperture Science"},/turf/wall,/area)
+"fX" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fY" = (/obj/signal/disk_producer,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"fZ" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"ga" = (/obj/boxrack,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gb" = (/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gc" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"gd" = (/obj/signal/shutter_box{range = 8},/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"ge" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Aperture Science"; owner = "oronar"})
+"gf" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gg" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gh" = (/obj/table{icon_state = "sides"; dir = 2},/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gi" = (/obj/filecabinet,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gj" = (/obj/sign{name = "dNet Operations"},/turf/wall,/area)
+"gk" = (/obj/window{dir = 4},/obj/shutter,/turf/floor,/area)
+"gl" = (/obj/table{icon_state = "sides"; dir = 4},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gm" = (/obj/signal/box{dir = 4; keycode = "dnetdoorpassword"; d_dir = 6},/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gn" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"go" = (/obj/table{icon_state = "sides"; dir = 4},/obj/signal/printer,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gp" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gq" = (/obj/table{icon_state = "sides"; dir = 4},/obj/signal/scanner,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gr" = (/obj/table{icon_state = "sides"; dir = 4},/obj/signal/microphone,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gs" = (/obj/table{icon_state = "sides"; dir = 1},/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gt" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/obj/signal/hub/mini,/obj/signal/hub/mini,/obj/signal/hub/mini,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gu" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/router/mini,/obj/signal/hub/router/mini,/obj/signal/hub/router/mini,/obj/signal/hub/router/mini,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gv" = (/obj/copier,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gw" = (/obj/signal/antenna/dish,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+"gx" = (/obj/signal/disk_producer,/turf/floor,/area/save_location{name = "dNet Operations"; owner = "dever"})
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacacacacacacadaeaeafabagahahahahaiajaiahahagabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahahahahahahahahahahahabahahahakalamanaoahapapabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahahahahahaqaqaqaqahahabahahahahahahahahahapapabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaharasahaqatauauavaqawaxahahahahahahahahahapapabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahahayahaqalamamazaqahahahahahaoaoahaoaoahapapabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababahaAaBahahaqaqaqaqahahabahahahaCaCahaCaCahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababahahaDahahahahahahahagabaqahahaCaCahaCaCahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahaqaoaqahahaqaoaqahahaqaoaqahaqaoaqahabababababababababababababauahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahabababahahabababahahabababahabababahabahahahahahahahabahahahahahahahahahahahafahahaEabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahaqaoaqahahaqaoaqahahaqaoaqahaqaoaqahaFahahahahahahahabahahahabaGaGaGaGaGaGaGaGaHahababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahabababahahabababahahabababahabababahahahahahahahahahabababababahahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahahahahahahahahahahahahahahahahaIahahahahahahahahahahahahahahahahahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahaJauasahahabababahahabababahabababahahahahahahahahahahahahahahahahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahaKahaBahahaqaoaqahahaqaoaqahaqaoaqahaLahahahahahababababababababababababababahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahahahajahahabababahahabababahabababahaMahahahahahabaNaOaPaQaRaRaRaRaRaRaPaSabahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaTakakajahahaqaoaqahahaqaoaqahaqaoaqahaMahahahahahabaPaPaPaPaPaPaPaPaPaPaPaPabahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aJaGaGaGaGaGaGaGaGaGaGaGaGaGaGaGaGaJaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababaUaPaPaPaVaVaVaVaVaVaPaVabahahahahabaWaXababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaJaGaGaGaGaGaGaGaGaGaGaGaGaGaGaJaMaaaaaaaaaaaaaaaaaaaaabababababababakabakabakabakabakabakabakabakabababababaUaPaPaPaPaPaPaPaPaPaPaVabahahahahahahahafabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMaYahaYahaYahaYahaYahaYahaYahaMaMaaaaaaaaaaaaaaaaaaaaababaXabaXababahabahabahabahabahabahabahabahababaZafabaUaPaPaPaVaVaVaVaVaVaPaVabahahahahaJbaahakabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMaqahaqahaqahaqahaqahaqahaqahaMaMaaaaaaaaaaaaaaaaaaaaabafahahahbbabahahahahahahahahahahahahahahahaIahahakabaUaPaPaPaPaPaPaPaPaPaPaVabahahahahbcahahakabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMahahahahahahahahahahahahahahaMaMaaaaaaaaaaaaaaaaaaaaabahahahahahabahahahahahahahahahahahahahahahahbdbeakabaUaPaPaPaVaVaVaVaVaVaPaVabahahahahbcahahatabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMaYahaYahaYahaYahaYahaYahaYahabababababababaaaaaaaaaaabahahahahahabahaJahaJahaJahaJahbfahbgasahahahbhahaoabaPaPaPaPaPaPaPaPaPaPaPaPabahahahahbcahahbhabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMaqahaqahaqahaqahaqahaqahaqahabababababababaaaaaaaaaaabbiahbjahahabakaMakaMakaMakaMakaMakbkblahahbmbcahagabaPaPbnboaNaPbpbqbrbsbtbuabahahahahbcahahbvabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMahahahahahahahahahahahahahahahahahahahababaaaaaaaaaaabaGaGbwahababaGaJaGaJaGaJaGaJaGaJaGaGaGbxahababamababbyaPbzababababababababababahahahahaJaGaGaGabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMahahahahahahahahahahahahahahahahahahahababaaaaaaaaaaabagahahahahahahahahahagahahahahahahahahahahahagahafahahahahahahahahahagahahahahahahahahahagahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMahahahahahahahahahahahahahahahahahahahababaaaaaaaaaaabbAahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMaYahaYahaYahaYahaYahaYahaYahahahahahahababaaaaaaaaaaabbBahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMaqahaqahaqahaqahaqahaqahaqahahahahahahababaaaaaaaaaaabbCahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMahahahahahahahahahahahahahahahahahahahabababababababababahahababahbDabababababababbEahbFababababbGababbHbIbFabababababababbEahbFabababababababbEahbFababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMaYahaYahaYahaYahaYahaYahaYahahahahahahabababababababababahahabakahahbJababahahahahahahbKbLababbMbNbObObPbIbQbRababakahakahahahbKakababahahahahahahbSbLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaMaqahaqahaqahaqahaqahaqahaqahahahahahahahahahahahahahahahahahabakahahbhabajahahahahahahahbLabbTbIbIbIbIbIbIbIbRabajahahahahahahahahabajahahahahahahahbLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aMaJaGaGaGaGaGaGaGaGaGaGaGaGababahahahahahahahahahahahahahahahahabakahahbJabajahahahahahahahbLabbUbIbObObObObIbIbRabajahahahahahahahakabbVahahahahahahahbLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aJaGaGaGaGaGaGaGaGaGaGaGaGaGababahahahahahahahahahahahahahahahahabakahahbWabajahahahahahahahbXabbYbIbIbIbIbIbIbIbZabajahahahahahahahahabcaahahahahahahahbXabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahahahahahahahahahahahahahabakahahbJabajahbXahbXahbXahbXabcbbIbZbIbZbIbZbIbZabajahahahahahahahakabccahbXahbXahbXahbXabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababahahabcdahahceababakabakabakabakbAabcfcgabbOabbOabbOchababbLahahahahahahahababakabakabakabakbAabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababahahabababababababababababababababababababababababababababbLahahahahahahakababababababababababababababababababababababababababababababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahakakakakakakakakakakakakabagahahabaTbLbLbLbLbLbLbLciabbLahahahahahahahakabcjacacacacacacacacacadcdagaIaMahakakakakakakakakakbAababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahahahahahahahahahahahabckahahabahahahahahahahahclabbLahahahahahahahbAabaqahahahahahahahahahahahahahbfcmahahahahahahahahahahababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahahahahahahahahahahahahahahahabahahahahahahahahbcabbXahahahahahahahakabahahahahahahahahahahahahahahahahahahahahahahahahahagababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahahahahahahahahahahahabababababahahahahahahahahclabbXahahahahahahahakabcjadagahahaiaiaiaiaiaiaiahahcnahahahahahahahahahahbXababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahcoababbFabahbLbLahahbLbLahahahahagabahahcpahahahahahbhabahahahahahahahahahabaqahahahaAatauauauauauavapahaMahakakakakakahahahahbXababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahcpbAbXbXabahbLbLahahbLbLahahahahahabahbAcqcqcqcqbAahclabcrcsctauauauauauauabahahahahaAalamamamamamazapahababababababakahahahahbXababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahbXabahahahahahahahahahahahahabahcuababababbFabababababababababababababcjadagahahaCaCaCaCaCaCaCahahalamamcvcwabakahahahahbXababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahbXabahahahahahahahahahahahahbFahbLbLbLbLbLbLbLbLbLbLbLbLbLbLbLbLbLbLabaqahahahahahahahahahahahahahaCaCaCaCahabakahahahahbXababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahbXabahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahabafahahahahahahahahahahahahahahahahahahabakahahahahbXababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababakakakbLbXabahbLbLbLbLbLahahahahahcxcyasahahahahczbXbXbXbXbXbXbXbXbXbXcAababababababababahahcBababababababababababababakahahahahahababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababahcCcDcEahahahahczbXbXbXbXbXbXbXbXbXbXbFabahahahahahahahahahahahahahahahahahahahahahabcpahahahahcFababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababakabakabakabakabakabakabakabakabahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahabbAcGcHcIcJakababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahabahabahabahabahabahabahabahcKahahabcLakakakakakakahahbLbLbLbLbLbLbLabahahababababababababahahababababababababahahabababababababababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahahahahahahahahahahahahahahahababababababababahahababababababababahahabcMcNcOabcPcQabahahabcRcRcRcScScTabahahabcUcUcUcVcVcWababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahbLbLahahahahbLbLahahahahahbLbLahabcXcXcXcYcYcZabahahabdadadadbdbdcabahahdddedfdfdfdfdfabahahdgdhdididididjabahahbFdkdldldldldmababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababafahbXbXahahahahbXbXahahagahahbXbXahdndodpdpdpdpdqabahahdrdsdtdtdtdtduabahahdfdfdfdfcOdfcOabahahdididididicSababahahdldldldldlcVabababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababbAahahahahahahahahahahahahahahahahahdpdpdpdpdpcYababahahdtdtdtdtdtdbababahahdvcQdfdfcOdfcOabahahdwdjdidjdididjabahahdxdmdldmdldldmababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababdydzdAdBdCdDdEdFdGdHdIdJdKdLdMdNdOahdPdqdpdqdpdpdqabahahdQdudtdudtdtduabahahdRcPdfdfcOdfcOabahahabdjdidjdicSababahahabdmdldmdlcVabababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababakakakakakakakakakakakakakakakakakdOabdqdpdqdpcYababahahabdudtdudtdbababahahdRcOdfdfcOdfcOabahahabdjdidjdididjabahahabdmdldmdldSdmababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahahahahahahahahahahahahahahdNabdqdpdqdpdpdqabahahabdudtdudtdtduabahahdRcPdfdfcOdfcPabahahabdjdidjdicSababahahabdmdldmdlcVabababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahakakakakakakakakakakakakakakakakdMabdqdpdqdpcYababahahabdudtdudtdbababahahdRdTdfdfdfdfdUabahahabdVdWdidXdidjabahahabdYdldldZababababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahahahahahahahahahahahahahahdLabeadpdpebdpdqabahahabecdtdteddtduabahahdReecOcOdfdfcQabahahababefegeheiababahahababejekelababababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahakakakakakakakakakakakakakakakakdKababemeneoepababahahababeqeresetababahahababababeuevcPabahahbLabababababababahahbLababababababababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahahahahahahahahahahahahahahdJbXababababababbXahahbLababababababbLahahbLbXbXabababababahahbLbXbXababababahahahahahahahahahahababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahakakakakakakakakakakakakakakakakdIahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahahahahahahahahahahahahahahahahdHahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahbXbXbXahahahababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababahakakakakakakakdGababababababababababababababababababahahababababababababababababababababababahahabababababababababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababewakbAakafakbvcDabahahahahahahahahdFabexexexeyeyeyezeAeAeBeCexexeyeyezabahahabeDeDeEeEeFeFeFeGeHeIeIeIeIeIeIeIabahahabeJeJeJeKeKeLababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababdEahahahahahahahabahakakakakakakakdEabeMeAeAeAeAeAeAeAeAeAeAeAeAeAeAeMabahaheNeOeDeDeDeDeDeDeDeDeDeDeDeDeDeDePabahaheQeReSeSeSeSeTababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababeUeVeVeVeVeVeVahabahahahahahahahahdDabeyeyeAeMeMeAeAexeyeAeAeMeMeAeyeyabahaheDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDabahaheSeSeSeSeSeKabababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababeWeVeVeVeVeVeVahbFahakakakakakakakdCabeMeAeAeMeMeAeAexeyeAeAeMeMeAeAeMabahaheXeYeDeYeYeYeYeDeYeYeDeYeYeYeYeDeFabahaheZeTeSeTeSeSeTababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababfaeVeVeVeVeVeVahahahahahahahahahahdBabeyeyeAeMeMeAeAexeyeAeAeMeMeAeyeyabahahabeYeDeDeDeDeDeDeYeYeDeDeDeDeDeDeFabahahabeTeSeTeSeKabababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababfbeVeVeVeVeVeVahahahakakakakakakakdAabeMeAeAeMeMeAeAexeyeAeAeMeMeAeAeMabahahabeYeDeYeYeYeYeDeYeYeDeYeYeYeYeDeIabahahabeTeSeTeSeSeTababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababfceVeVeVeVeVeVahfdahahahahahahahahdzabeyeyeAeMeMeAeAfeffeAeAeMeMeAeyeyabahahabeYeDeDeDeDeDeDeDeDeDeDeDeDeDeDeIabahahabeTeSeTeSeKabababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababfgfcfbfaeWeUfhdFabbLahahbLbLbLbLbLfiabeCeAeAfjeAeAeAeAeAeAeAeAeAfjeAeMabahahabeHeDeDeDeDeDeDeDeHeDeDeDeDeDeDeIabahahabfkeSeSflfmeTababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababbLahahabababababababfnfofpfqfrfseAeMftabfufofvfwfxababahahababeDeDeDeYeYfyfyfzfAfBfCfDfEfFababababababfGfHfIfJabababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababbLahahabababababababababababababfKababababababababababababababababababababdRdRdRdRdRdRdRdRabababababababababababababaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbLahahabfLfLfLfLfLfMfNfOfPfPfPfQfQfQfRabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakahahabfQfQfQfQfQfQfQfQfQfQfQfQfQfQfLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakahahabfSfQfQfQfQfQfQfQfQfQfQfQfQfQfTabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakahahabfSfQfQfQfQfQfQfQfQfQfQfQfQfQfLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakahahfUfVfQfQfQfSfQfSfQfSfQfQfQfQfQfTabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababahahfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahahfWfQfQfQfQfPfQfXfQfPfQfQfQfQfQfTabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabahahabfQfQfQfQfQfQfQfQfQfQfQfQfQfQfLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababaaaaaaaaaaaaaaaaaaabahahabfYfQfQfQfPfQfSfQfPfQfQfQfQfQfTabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaabfZfZfZfZfZfZfZfZfZfZfZfZgagaabaaaaaaaaaaaaaaaaaaabahahabfQfQfQfQfQfQfQfQfQfQfQfQfQfQfLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaabgbgbgbgbgbgbgbgbgbgbgbgbgbgbabaaaaaaaaaaaaaaaaaaabahahabfQfQfQfQfQfQfQfQfQfQfQfQfQfQfTabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaababababababababgbgbgbgbgbgbgbgbgbgbgbgbgbgbabaaaaaaaaaaaaaaaaaaabahahabgcfLfQgdfQfQfQfQfQfQfQfQgefQfLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaabgfggghghghgigigbgbgbgbgbgbgbgbgbgbgbgbgbgbabgjabababababababababahahabababababgkgkgkgkgkgkgkgkababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaabglgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgmgnahahahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaabgogbgbgbgbgbgbgbgpgbgpgbgpgbgpgbgpgbgpgbgbgbahahahahahahahahahahahahabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaabgogbgbgbgbgbgbgbgpgbgpgbgpgbgpgbgpgbgpgbgbababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaabgqgbgbgbgbgbgbgbgpgbgpgbgpgbgpgbgpgbgpgbgbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaabgrgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbgbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaabgsgsgsgtgugvgwgbgbgbgbgbgbgbgbgbgbgbgbgbgbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaababababababababgxgbgbgbgbgbgbgbgbgbgbgbgbgbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaabgbgbgbgbgbgbgbgbgbgbgbgbgbgbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaabgbgbgbgbgbgbgbgbgbgbgbgbgbgbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

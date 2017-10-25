@@ -1,0 +1,496 @@
+"aa" = (/turf/wall,/area)
+"ab" = (/obj/signal/hub/router,/turf/floor,/area)
+"ac" = (/turf/floor,/area)
+"ad" = (/obj/signal/computer,/turf/floor,/area)
+"ae" = (/obj/trashcan,/turf/floor,/area)
+"af" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"ag" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"ah" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"ai" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"aj" = (/obj/table{icon_state = "sides"; dir = 2},/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"ak" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"al" = (/obj/window,/turf/floor,/area)
+"am" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"an" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"ao" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"ap" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"aq" = (/obj/table{icon_state = "sides"; dir = 2},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"ar" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"as" = (/obj/window{tag = "icon-window (NORTH)"; icon_state = "window"; dir = 1},/turf/floor,/area)
+"at" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"au" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"av" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"aw" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"ax" = (/obj/table{icon_state = "sides"; dir = 2},/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"ay" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"az" = (/obj/signal/hub,/turf/floor,/area)
+"aA" = (/obj/table{icon_state = "corners"; dir = 10},/obj/plants,/turf/floor,/area)
+"aB" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area)
+"aC" = (/obj/table{icon_state = "sides"; dir = 2},/obj/plants,/turf/floor,/area)
+"aD" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/scanner,/turf/floor,/area)
+"aE" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area)
+"aF" = (/obj/table{icon_state = "corners"; dir = 6},/obj/plants,/turf/floor,/area)
+"aG" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"aH" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"aI" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"aJ" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"aK" = (/obj/table{icon_state = "sides"; dir = 2},/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"aL" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"aM" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"aN" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"aO" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"aP" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"aQ" = (/obj/table{icon_state = "sides"; dir = 2},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"aR" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"aS" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"aT" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"aU" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"aV" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"aW" = (/obj/table{icon_state = "sides"; dir = 2},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"aX" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"aY" = (/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"aZ" = (/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"ba" = (/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"bb" = (/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"bc" = (/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"bd" = (/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"be" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/printer,/turf/floor,/area)
+"bf" = (/obj/table{icon_state = "corners"; dir = 9},/obj/signal/notarizer,/turf/floor,/area)
+"bg" = (/obj/table{icon_state = "sides"; dir = 4},/turf/floor,/area)
+"bh" = (/obj/table{icon_state = "sides"; dir = 8},/turf/floor,/area)
+"bi" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"bj" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"bk" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"bl" = (/obj/signal/hub,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"bm" = (/obj/signal/computer,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"bn" = (/obj/signal/hub/router,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"bo" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"bp" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"bq" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"br" = (/obj/table{icon_state = "sides"; dir = 4},/obj/shredder,/turf/floor,/area)
+"bs" = (/obj/table{icon_state = "sides"; dir = 8},/obj/shredder,/turf/floor,/area)
+"bt" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"bu" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"bv" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"bw" = (/obj/signal/hub,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"bx" = (/obj/signal/computer,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"by" = (/obj/signal/hub/router,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"bz" = (/obj/signal/hub,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"bA" = (/obj/signal/computer,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"bB" = (/obj/signal/hub/router,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"bC" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"bD" = (/obj/signal/box{keycode = "freelabsarefun"; open_lab = 1},/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"bE" = (/obj/signal/sign_box{default_text = "Free Lab"; sign_dir = 10},/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"bF" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"bG" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"bH" = (/obj/signal/box{keycode = "freelabsarefun"; open_lab = 1},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"bI" = (/obj/signal/sign_box{default_text = "Free Lab"; sign_dir = 10},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"bJ" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"bK" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"bL" = (/obj/signal/box{keycode = "freelabsarefun"; open_lab = 1},/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"bM" = (/obj/signal/sign_box{default_text = "Free Lab"; sign_dir = 10},/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"bN" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"bO" = (/obj/table{icon_state = "sides"; dir = 4},/obj/signal/notarizer,/turf/floor,/area)
+"bP" = (/obj/table{icon_state = "sides"; dir = 8},/obj/signal/printer,/turf/floor,/area)
+"bQ" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"bR" = (/obj/signal/box{keycode = "freelabsarefun"; open_lab = 1},/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"bS" = (/obj/signal/sign_box{default_text = "Free Lab"; sign_dir = 10},/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"bT" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"bU" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"bV" = (/obj/signal/box{keycode = "freelabsarefun"; open_lab = 1},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"bW" = (/obj/signal/sign_box{default_text = "Free Lab"; sign_dir = 10},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"bX" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"bY" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"bZ" = (/obj/signal/box{keycode = "freelabsarefun"; open_lab = 1},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"ca" = (/obj/signal/sign_box{default_text = "Free Lab"; sign_dir = 10},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"cb" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"cc" = (/obj/window{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/floor,/area)
+"cd" = (/obj/signal/intercom,/obj/window{dir = 6},/turf/floor,/area/save_location{name = "Free Lab 1"; auto_save = 0})
+"ce" = (/obj/window{dir = 6},/turf/floor,/area)
+"cf" = (/obj/signal/intercom,/obj/window{dir = 6},/turf/floor,/area/save_location{auto_save = 0; name = "Free Lab 2"})
+"cg" = (/obj/signal/intercom,/obj/window{dir = 6},/turf/floor,/area/save_location{name = "Free Lab 3"; auto_save = 0})
+"ch" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Free Lab 4"; auto_save = 0})
+"ci" = (/obj/signal/intercom,/turf/wall,/area/save_location{auto_save = 0; name = "Free Lab 5"})
+"cj" = (/obj/signal/intercom,/turf/wall,/area/save_location{auto_save = 0; name = "Free Lab 6"})
+"ck" = (/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cl" = (/obj/signal/intercom,/turf/wall,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cm" = (/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cn" = (/obj/signal/intercom,/turf/wall,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"co" = (/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cp" = (/obj/signal/intercom,/turf/wall,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cq" = (/obj/signal/intercom,/turf/wall,/area)
+"cr" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cs" = (/obj/signal/sign_box{default_text = "Lcooper's Lab"; dir = 1; sign_dir = 9},/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"ct" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "emptylabssuck"},/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cu" = (/obj/filecabinet,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cv" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cw" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cx" = (/obj/signal/sign_box{default_text = "Zero Ziat's Lab"; dir = 1; sign_dir = 9},/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cy" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "emptylabssuck"},/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cz" = (/obj/filecabinet,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cA" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cB" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cC" = (/obj/signal/sign_box{default_text = "Shwb1's Lab"; dir = 1; sign_dir = 9},/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cD" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "emptylabssuck"},/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cE" = (/obj/filecabinet,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cF" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cG" = (/obj/signal/antenna,/turf/floor,/area)
+"cH" = (/obj/signal/sign_box{default_text = "Empty Lab"; dir = 1; sign_dir = 9},/turf/floor,/area)
+"cI" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "emptylabssuck"},/turf/floor,/area)
+"cJ" = (/obj/filecabinet,/turf/floor,/area)
+"cK" = (/obj/signal/hub,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cL" = (/obj/signal/computer,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cM" = (/obj/signal/hub/router,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cN" = (/obj/signal/hub,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cO" = (/obj/signal/computer,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cP" = (/obj/signal/hub/router,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cQ" = (/obj/signal/hub,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cR" = (/obj/signal/computer,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cS" = (/obj/signal/hub/router,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cT" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cU" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"cV" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"cW" = (/obj/signal/dir_ant,/turf/floor,/area)
+"cX" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cY" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/printer,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"cZ" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"da" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"db" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"dc" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"dd" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/bounce,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"de" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"df" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/notarizer,/turf/floor,/area/save_location{auto_save = 1; name = "Lcooper's Lab"; owner = "lcooper"})
+"dg" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"dh" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/printer,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"di" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"dj" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"dk" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"dl" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"dm" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/bounce,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"dn" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"do" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/notarizer,/turf/floor,/area/save_location{auto_save = 1; name = "Zero Ziat's Lab"; owner = "zeroziat"})
+"dp" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"dq" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/printer,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"dr" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"ds" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"dt" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"du" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"dv" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/bounce,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"dw" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"dx" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/notarizer,/turf/floor,/area/save_location{auto_save = 1; name = "Shwb1's Lab"; owner = "shwb1"})
+"dy" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area)
+"dz" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/printer,/turf/floor,/area)
+"dA" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area)
+"dB" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area)
+"dC" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/turf/floor,/area)
+"dD" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/router/mini,/turf/floor,/area)
+"dE" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/bounce,/turf/floor,/area)
+"dF" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area)
+"dG" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/notarizer,/turf/floor,/area)
+"dH" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"dI" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"dJ" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"dK" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"dL" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/mini,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"dM" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"dN" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/bounce,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"dO" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"dP" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"dQ" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"dR" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"dS" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"dT" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"dU" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/mini,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"dV" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"dW" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/bounce,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"dX" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"dY" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"dZ" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"ea" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eb" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"ec" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"ed" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"ee" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"ef" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/bounce,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eg" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eh" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"ei" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area)
+"ej" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area)
+"ek" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/mini,/turf/floor,/area)
+"el" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/router/mini,/turf/floor,/area)
+"em" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/bounce,/turf/floor,/area)
+"en" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area)
+"eo" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area)
+"ep" = (/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"eq" = (/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"er" = (/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"es" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"et" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"eu" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"ev" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"ew" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"ex" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"ey" = (/obj/signal/hub,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"ez" = (/obj/signal/computer,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eA" = (/obj/signal/hub/router,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eB" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"eC" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"eD" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eE" = (/turf/floor,/area/start)
+"eF" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"eG" = (/obj/signal/box{keycode = "somerandompasswordheredude"},/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"eH" = (/obj/signal/sign_box{default_text = "Nadrew's Lab"; sign_dir = 10},/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"eI" = (/obj/filecabinet,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"eJ" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"eK" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"eL" = (/obj/signal/box{keycode = "yotard"},/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"eM" = (/obj/signal/sign_box{default_text = "Yota's Lab"; sign_dir = 10},/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"eN" = (/obj/filecabinet,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"eO" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"eP" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eQ" = (/obj/signal/box{keycode = "corpse"},/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eR" = (/obj/signal/sign_box{default_text = "Calus' Lab"; sign_dir = 10},/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eS" = (/obj/filecabinet,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eT" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eU" = (/obj/signal/box{keycode = "emptylabsarenofun"},/turf/floor,/area)
+"eV" = (/obj/signal/sign_box{default_text = "Empty Lab"; sign_dir = 10},/turf/floor,/area)
+"eW" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Nadrew's Lab"; owner = "nadrew"})
+"eX" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Yota's Lab"; owner = "yota"})
+"eY" = (/obj/signal/intercom,/turf/wall,/area/save_location{auto_save = 1; name = "Calus CoRPS' Lab"; owner = "caluscorps"})
+"eZ" = (/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fa" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fb" = (/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fc" = (/obj/signal/intercom,/turf/wall,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fd" = (/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fe" = (/obj/signal/intercom,/turf/wall,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"ff" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fg" = (/obj/signal/sign_box{default_text = "W12W's Lab"; dir = 1; sign_dir = 9},/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fh" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "Quinty_2012"},/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fi" = (/obj/filecabinet,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fj" = (/obj/trashcan,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fk" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fl" = (/obj/signal/sign_box{default_text = "Tomeno's Lab"; dir = 1; sign_dir = 9},/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fm" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "rachunek"},/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fn" = (/obj/filecabinet,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fo" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fp" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fq" = (/obj/signal/sign_box{default_text = "Rockdtben's Lab"; dir = 1; sign_dir = 9},/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fr" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "beansandcorn"},/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fs" = (/obj/filecabinet,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"ft" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fu" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fv" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fw" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fx" = (/obj/signal/hub,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fy" = (/obj/signal/computer,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fz" = (/obj/signal/hub/router,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fA" = (/obj/signal/hub,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fB" = (/obj/signal/computer,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fC" = (/obj/signal/hub/router,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fD" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fE" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fF" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fG" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fH" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/printer,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fI" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fJ" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fK" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fL" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fM" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/bounce,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fN" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fO" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})
+"fP" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fQ" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/printer,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fR" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fS" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fT" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fU" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fV" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/bounce,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fW" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fX" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/notarizer,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
+"fY" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/scanner,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fZ" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/printer,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"ga" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/microphone,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"gb" = (/obj/table{icon_state = "sides"; dir = 1},/obj/shredder,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"gc" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"gd" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"ge" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/bounce,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"gf" = (/obj/table{icon_state = "sides"; dir = 1},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"gg" = (/obj/table{icon_state = "corners"; dir = 5},/obj/signal/notarizer,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"gh" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gi" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gj" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gk" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gl" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/mini,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gm" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gn" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/bounce,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"go" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gp" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gq" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gr" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gs" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gt" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gu" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/mini,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gv" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gw" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/bounce,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gx" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gy" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gz" = (/obj/table{icon_state = "corners"; dir = 10},/obj/signal/scanner,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gA" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/printer,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gB" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/microphone,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gC" = (/obj/table{icon_state = "sides"; dir = 2},/obj/shredder,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gD" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/mini,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gE" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/hub/router/mini,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gF" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/bounce,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gG" = (/obj/table{icon_state = "sides"; dir = 2},/obj/signal/infared,/obj/signal/infared,/obj/signal/infared,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gH" = (/obj/table{icon_state = "corners"; dir = 6},/obj/signal/notarizer,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gI" = (/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gJ" = (/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gK" = (/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gL" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gM" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gN" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gO" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gP" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gQ" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gR" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gS" = (/obj/signal/computer,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gT" = (/obj/signal/hub/router,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gU" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gV" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"gW" = (/obj/signal/dir_ant,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"gX" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gY" = (/obj/signal/box{keycode = "dnetdoorpassword"},/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"gZ" = (/obj/signal/sign_box{default_text = "Dever's Lab"; sign_dir = 10},/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"ha" = (/obj/filecabinet,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"hb" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"hc" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"hd" = (/obj/signal/box{keycode = "ChaoChaoTech"},/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"he" = (/obj/signal/sign_box{default_text = "Chowder's Lab"; sign_dir = 10},/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"hf" = (/obj/filecabinet,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"hg" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"hh" = (/obj/signal/antenna,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"hi" = (/obj/signal/box{keycode = "eoscondor"},/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"hj" = (/obj/signal/sign_box{default_text = "Robconolly's Lab"; sign_dir = 10},/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"hk" = (/obj/filecabinet,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"hl" = (/obj/trashcan,/turf/floor,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"hm" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Dever's Lab"; owner = "dever"})
+"hn" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Chowder's Lab"; owner = "chowder"; auto_save = 1})
+"ho" = (/obj/signal/intercom,/turf/wall,/area/save_location{name = "Robconolly's Lab"; owner = "Robconolly"})
+"hp" = (/obj/bookcase,/turf/floor,/area)
+"hq" = (/obj/bookcase,/obj/signal/sign_box{default_text = "The Library"; dir = 1; sign_dir = 9},/turf/floor,/area)
+"hr" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "getmesomegoodies"},/turf/floor,/area)
+"hs" = (/obj/signal/sign_box{default_text = "Supplies"; dir = 1; sign_dir = 5},/turf/floor,/area)
+"ht" = (/obj/signal/converter,/turf/floor,/area)
+"hu" = (/obj/signal/disk_producer,/turf/floor,/area)
+"hv" = (/obj/table,/obj/signal/computer,/turf/floor,/area)
+"hw" = (/obj/stool,/turf/floor,/area)
+"hx" = (/obj/boxrack,/turf/floor,/area)
+"hy" = (/obj/table,/obj/signal/printer,/turf/floor,/area)
+"hz" = (/obj/signal/box{d_dir = 5; dir = 4; keycode = "playinggodisgood"},/obj/signal/sign_box{default_text = "???"; dir = 4; sign_dir = 4},/turf/floor,/area)
+"hA" = (/obj/table,/turf/floor,/area)
+"hB" = (/obj/conveyor,/turf/wall,/area)
+"hC" = (/obj/electronic,/turf/wall,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaabacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadaaaaaaaaaaadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacaeacabaaaa
+aaaaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaaaaaaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaaaa
+aaaaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaaaeaaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaaaa
+aaaaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaacacacaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaaaa
+aaaaabacacaeacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacaaacacacaaacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacacadacacabaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaacacacacacacacaaafagahaiajajajajakalamanaoapaqaqaqaqarasatauavawaxaxaxaxayaaabababacazazazaaacacacaaaAaBaCaDaCaEaFaaaGaHaIaJaKaKaKaKaLaaaMaNaOaPaQaQaQaQaRaaaSaTaUaVaWaWaWaWaXaaaeacacacacacacacaaaa
+aaaaacadacadacadacaaaYaYaYaYaYaYaYaYaYalaZaZaZaZaZaZaZaZaZasbababababababababaaaacacacacacacacaaacacacaaacacacacacacacaabbbbbbbbbbbbbbbbbbaabcbcbcbcbcbcbcbcbcaabdbdbdbdbdbdbdbdbdaaacacacacacacacacaaaa
+aaaaacacacacacacacaaaYaYaYaYaYaYaYaYaYalaZaZaZaZaZaZaZaZaZasbababababababababaaabeacacacacacbfaaacacacaaacacacacacacacaabbbbbbbbbbbbbbbbbbaabcbcbcbcbcbcbcbcbcaabdbdbdbdbdbdbdbdbdaaacacadacacadacacaaaa
+aaaaacacacacacacacaaaYaYaYaYaYaYaYaYaYalaZaZaZaZaZaZaZaZaZasbababababababababaaabgacacadacacbhaaacacacaaacadacacacadacaabbbbbbbbbbbbbbbbbbaabcbcbcbcbcbcbcbcbcaabdbdbdbdbdbdbdbdbdaaacacacacacacacacaaaa
+aaaaacadacadacadacaabiaYaYbjaYbjaYaYbkalblaZaZbmaZbmaZaZbnasbobababpbabpbababqaabracacacacacbsaaacacacaaacacacacacacacaabtbbbbbubbbubbbbbvaabwbcbcbxbcbxbcbcbyaabzbdbdbAbdbAbdbdbBaaacacacacacacacacaaaa
+aaaaacacacacacacacaabiaYaYbjaYbjaYaYbkalblaZaZbmaZbmaZaZbnasbobababpbabpbababqaabgacacadacacbhaaacacacaaacacacadacacacaabtbbbbbubbbubbbbbvaabwbcbcbxbcbxbcbcbyaabzbdbdbAbdbAbdbdbBaaacacadacacadacacaaaa
+aaaaacacacacacacacaabiaYaYbjaYbjaYaYbkalblaZaZbmaZbmaZaZbnasbobababpbabpbababqaabgacacacacacbhaaacacacaaacacacacacacacaabtbbbbbubbbubbbbbvaabwbcbcbxbcbxbcbcbyaabzbdbdbAbdbAbdbdbBaaacacacacacacacacaaaa
+aaaaacadacadacadacaaaYaYaYaYaYaYaYaYaYalaZaZaZaZaZaZaZaZaZasbababababababababaaabracacadacacbsaaacacacaaacadacacacadacaabbbbbbbbbbbbbbbbbbaabcbcbcbcbcbcbcbcbcaabdbdbdbdbdbdbdbdbdaaacacacacacacacacaaaa
+aaaaacacacacacacacaaaYaYaYaYaYaYaYaYaYalaZaZaZaZaZaZaZaZaZasbababababababababaaabgacacacacacbhaaacacacaaacacacacacacacaabbbbbbbbbbbbbbbbbbaabcbcbcbcbcbcbcbcbcaabdbdbdbdbdbdbdbdbdaaacacadacacadacacaaaa
+aaaaacacacacacacacaabCaYaYaYaYbDbEaYbFalbGaZaZaZaZbHbIaZbJasbKbababababLbMbabNaabOacacacacacbPaaacacacaaacacacacacacacaabQbbbbbbbbbRbSbbbTaabUbcbcbcbcbVbWbcbXaabYbdbdbdbdbZcabdcbaaacacacacacacacacaaaa
+aaaaaaaaaaacaaaaaaaacccccccdaYcececccccecccccccfaZcececccccecccccccgbacececcccaaaaaaaaacaaaaaaaaacacacaaaaaaaaacaaaaaaaaaaaaaachbbaaaaaaaaaaaaaaaacibcaaaaaaaaaaaaaaaacjbdaaaaaaaaaaaaaaaaacacacaaaaaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaaacacacaaaeacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaacacacaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadaaacacacaaadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaacacacacacacacaaaaaaaaaackclaaaaaaaaaaaaaaaacmcnaaaaaaaaaaaaaaaacocpaaaaaaaaadacacacacacacaaacacacaaacacacacacacadaaaaaaaaaaaccqaaaaaaaaaaaaaaaaaccqaaaaaaaaaaaaaaaaaccqaaaaaaaaacacacacacacacacaaaa
+aaaaacacacacacacacaacrckcsctckckckcucvaacwcmcxcycmcmcmczcAaacBcocCcDcocococEcFaaacacacacacacadaaacacacaaadacacacacacacaacGaccHcIacacaccJaeaacGaccHcIacacaccJaeaacGaccHcIacacaccJaeaaacacacacacacacacaaaa
+aaaaacacacacacacacaackckckckckckckckckaacmcmcmcmcmcmcmcmcmaacococococococococoaaadacacacacacacaaacacacaaacacacacacacadaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacacaacKckckcLckcLckckcMaacNcmcmcOcmcOcmcmcPaacQcococRcocRcococSaaacacacacacacadaaacacacaaadacacacacacacaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaacKckckcLckcLckckcMaacNcmcmcOcmcOcmcmcPaacQcococRcocRcococSaaadacacacacacacaaacacacaaacacacacacacadaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaacKckckcLcTcLckckcMaacNcmcmcOcUcOcmcmcPaacQcococRcVcRcococSaaacacacacacacadaaacacacaaadacacacacacacaaazacacadcWadacacabaaazacacadcWadacacabaaazacacadcWadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaacKckckcLckcLckckcMaacNcmcmcOcmcOcmcmcPaacQcococRcocRcococSaaadacacacacacacaaacacacaaacacacacacacadaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaacKckckcLckcLckckcMaacNcmcmcOcmcOcmcmcPaacQcococRcocRcococSaaacacacacacacadaaacacacaaadacacacacacacaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaackckckckckckckckckaacmcmcmcmcmcmcmcmcmaacococococococococoaaadacacacacacacaaacacacaaacacacacacacadaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacacaackckckckckckckckckaacmcmcmcmcmcmcmcmcmaacococococococococoaaacacacacacacadaaacacacaaadacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacacaacXcYcZdadbdcdddedfaadgdhdidjdkdldmdndoaadpdqdrdsdtdudvdwdxaaadacacacacacacaaacacacaaacacacacacacadaadydzdAdBdCdDdEdFdGaadydzdAdBdCdDdEdFdGaadydzdAdBdCdDdEdFdGaaacacacacacacacacaaaa
+aaaaacacacacacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacacadaaacacacaaadacacacacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacacacacaaaa
+aaaaacacacacacacacaadHdIdJdKdLdMdNdOdPaadQdRdSdTdUdVdWdXdYaadZeaebecedeeefegehaaadacacacacacacaaacacacaaacacacacacacadaaeiaEaBejekelemeneoaaeiaEaBejekelemeneoaaeiaEaBejekelemeneoaaacacacacacacacacaaaa
+aaaaacacacacacacacaaepepepepepepepepepaaeqeqeqeqeqeqeqeqeqaaerererererererereraaacacacacacacadaaacacacaaadacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacacaaepepepepepepepepepaaeqeqeqeqeqeqeqeqeqaaerererererererereraaadacacacacacacaaacacacaaacacacacacacadaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacacaaesepepetepetepepeuaaeveqeqeweqeweqeqexaaeyererezerezerereAaaaaaaacacacaaaaaaacacacaaaaaaacacacaaaaaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaaesepepetepetepepeuaaeveqeqeweqeweqeqexaaeyererezerezerereAaaacadacacacadacacacacacacacadacacacadaeaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaaesepepeteBetepepeuaaeveqeqeweCeweqeqexaaeyererezeDezerereAaaacacacacacacacacacacacacacacacacacacacaaazacacadcWadacacabaaazacacadcWadacacabaaazacacadcWadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaaesepepetepetepepeuaaeveqeqeweqeweqeqexaaeyererezerezerereAaaacacacacacacacacacacacacacacacacacacacaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaaesepepetepetepepeuaaeveqeqeweqeweqeqexaaeyererezerezerereAaaacacacacacacacacacacacacacacacacacacacaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacacaaepepepepepepepepepaaeqeqeqeqeqeqeqeqeqaaerererererererereraaacacacacacacacacacacacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacacaaepepepepepepepepepaaeqeqeqeqeqeqeqeqeqaaerererererererereraaacacacacacaceEeEeEeEeEeEeEacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacacaaeFepepepepeGeHeIeJaaeKeqeqeqeqeLeMeNeOaaePerererereQeReSeTaaacadacacacadeEeEeEeEeEeEeEadacacacadacaacGacacacaceUeVcJaeaacGacacacaceUeVcJaeaacGacacacaceUeVcJaeaaacacacacacacacacaaaa
+aaaaaaaaacacacaaaaaaaaaaaaeWepaaaaaaaaaaaaaaaaeXeqaaaaaaaaaaaaaaaaeYeraaaaaaaaaaacacacacacaceEeEeEeEeEeEeEacacacacacacaaaaaaaacqacaaaaaaaaaaaaaaaacqacaaaaaaaaaaaaaaaacqacaaaaaaaaaaaaaaaaacacacaaaaaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaceEeEeEeEeEeEeEacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaceEeEeEeEeEeEeEacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaceEeEeEeEeEeEeEacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaaaaaacacacaaaaaaaaaaaaaaeZfaaaaaaaaaaaaaaaaafbfcaaaaaaaaaaaaaaaafdfeaaaaaaaaacacacacacaceEeEeEeEeEeEeEacacacacacacaaaaaaaaaaaccqaaaaaaaaaaaaaaaaaccqaaaaaaaaaaaaaaaaaccqaaaaaaaaaaaaaaacacacaaaaaaaa
+aaaaadacacacacacacaaffeZfgfheZeZeZfifjaafkfbflfmfbfbfbfnfoaafpfdfqfrfdfdfdfsftaaacadacacacadeEeEeEeEeEeEeEadacacacadacaacGaccHcIacacaccJaeaacGaccHcIacacaccJaeaacGaccHcIacacaccJaeaaacacacacacacacadaaaa
+aaaaacacacacacacacaaeZeZeZeZeZeZeZeZeZaafbfbfbfbfbfbfbfbfbaafdfdfdfdfdfdfdfdfdaaacacacacacaceEeEeEeEeEeEeEacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacadaaeZeZeZeZeZeZeZeZeZaafbfbfbfbfbfbfbfbfbaafdfdfdfdfdfdfdfdfdaaacacacacacacacacacacacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaadacacacacacacacaaaa
+aaaaacacacacacacacaafueZeZfveZfveZeZfwaafxfbfbfyfbfyfbfbfzaafAfdfdfBfdfBfdfdfCaaacacacacacacacacacacacacacacacacacacacaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaadacacacacacacaafueZeZfveZfveZeZfwaafxfbfbfyfbfyfbfbfzaafAfdfdfBfdfBfdfdfCaaacacacacacacacacacacacacacacacacacacacaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacadaaaa
+aaaaacacacacacacacaafueZeZfvfDfveZeZfwaafxfbfbfyfEfyfbfbfzaafAfdfdfBfFfBfdfdfCaaacacacacacacacacacacacacacacacacacacacaaazacacadcWadacacabaaazacacadcWadacacabaaazacacadcWadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacadaafueZeZfveZfveZeZfwaafxfbfbfyfbfyfbfbfzaafAfdfdfBfdfBfdfdfCaaaeadacacacadacacacacacacacadacacacadacaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaadacacacacacacacaaaa
+aaaaacacacacacacacaafueZeZfveZfveZeZfwaafxfbfbfyfbfyfbfbfzaafAfdfdfBfdfBfdfdfCaaaaaaacacacaaaaaaacacacaaaaaaacacacaaaaaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaadacacacacacacaaeZeZeZeZeZeZeZeZeZaafbfbfbfbfbfbfbfbfbaafdfdfdfdfdfdfdfdfdaaadacacacacacacaaacacacaaacacacacacacadaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacadaaaa
+aaaaacacacacacacacaaeZeZeZeZeZeZeZeZeZaafbfbfbfbfbfbfbfbfbaafdfdfdfdfdfdfdfdfdaaacacacacacacadaaacacacaaadacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacadaafGfHfIfJfKfLfMfNfOaafPfQfRfSfTfUfVfWfXaafYfZgagbgcgdgegfggaaadacacacacacacaaacacacaaacacacacacacadaadydzdAdBdCdDdEdFdGaadydzdAdBdCdDdEdFdGaadydzdAdBdCdDdEdFdGaaadacacacacacacacaaaa
+aaaaacacacacacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacacadaaacacacaaadacacacacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacacacacacacaaaa
+aaaaadacacacacacacaaghgigjgkglgmgngogpaagqgrgsgtgugvgwgxgyaagzgAgBgCgDgEgFgGgHaaadacacacacacacaaacacacaaacacacacacacadaaeiaEaBejekelemeneoaaeiaEaBejekelemeneoaaeiaEaBejekelemeneoaaacacacacacacacadaaaa
+aaaaacacacacacacacaagIgIgIgIgIgIgIgIgIaagJgJgJgJgJgJgJgJgJaagKgKgKgKgKgKgKgKgKaaacacacacacacadaaacacacaaadacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacadaagIgIgIgIgIgIgIgIgIaagJgJgJgJgJgJgJgJgJaagKgKgKgKgKgKgKgKgKaaadacacacacacacaaacacacaaacacacacacacadaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaadacacacacacacacaaaa
+aaaaacacacacacacacaagLgIgIgMgIgMgIgIgNaagOgJgJgPgJgPgJgJgQaagRgKgKgSgKgSgKgKgTaaacacacacacacadaaacacacaaadacacacacacacaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaadacacacacacacaagLgIgIgMgIgMgIgIgNaagOgJgJgPgJgPgJgJgQaagRgKgKgSgKgSgKgKgTaaadacacacacacacaaacacacaaacacacacacacadaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacadaaaa
+aaaaacacacacacacacaagLgIgIgMgUgMgIgIgNaagOgJgJgPgVgPgJgJgQaagRgKgKgSgWgSgKgKgTaaacacacacacacadaaacacacaaadacacacacacacaaazacacadcWadacacabaaazacacadcWadacacabaaazacacadcWadacacabaaacacacacacacacacaaaa
+aaaaacacacacacacadaagLgIgIgMgIgMgIgIgNaagOgJgJgPgJgPgJgJgQaagRgKgKgSgKgSgKgKgTaaadacacacacacacaaacacacaaacacacacacacadaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaadacacacacacacacaaaa
+aaaaacacacacacacacaagLgIgIgMgIgMgIgIgNaagOgJgJgPgJgPgJgJgQaagRgKgKgSgKgSgKgKgTaaacacacacacacadaaacacacaaadacacacacacacaaazacacadacadacacabaaazacacadacadacacabaaazacacadacadacacabaaacacacacacacacacaaaa
+aaaaadacacacacacacaagIgIgIgIgIgIgIgIgIaagJgJgJgJgJgJgJgJgJaagKgKgKgKgKgKgKgKgKaaadacacacacacacaaacacacaaacacacacacacadaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacadaaaa
+aaaaacacacacacacacaagIgIgIgIgIgIgIgIgIaagJgJgJgJgJgJgJgJgJaagKgKgKgKgKgKgKgKgKaaacacacacacacadaaacacacaaadacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacacaaacacacacacacacacaaaa
+aaaaacacacacacacadaagXgIgIgIgIgYgZhahbaahcgJgJgJgJhdhehfhgaahhgKgKgKgKhihjhkhlaaaeacacacacacacaaacacacaaacacacacacacaeaacGacacacaceUeVcJaeaacGacacacaceUeVcJaeaacGacacacaceUeVcJaeaaadacacacacacacacaaaa
+aaaaaaaaacacacaaaaaaaaaaaahmgIaaaaaaaaaaaaaaaahngJaaaaaaaaaaaaaaaahogKaaaaaaaaaaaaaaacacacaaaaaaacacacaaaaaaacacacaaaaaaaaaaaacqacaaaaaaaaaaaaaaaacqacaaaaaaaaaaaaaaaacqacaaaaaaaaaaacacacacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaa
+aaaaaaaaacacacaaaaaaaaaaaaaaaaaaaaaaacacacaaaaaaaaaaaaccccccccccccccccccccccccccccccccccccccaaaaacacacaaaaaaceacceaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacaaaaaaaa
+aaaahphpacacachphphphphphqhphphphphpacacachphpaaaaaaacacacacacacacacacacacacacacacacacacacacacaaacacacaacGachrachsacaeaaababababababaahthuhthuhthuhthuhthuhthuaaadacadacadacadacadacadacaaacacacacadaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacaaaaaaachvacachvacachvacachvacachvacachvacachvacasacacacalacacacacacacacaaacacacacacacaaacacacacacacacacacacacacaaacacacacacacacacacacacacaaacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacaaaaaaachwacachwacachwacachwacachwacachwacachwacasacacacalacacacacacachxaaacacacacacadaaacacacacacacacacacacacacaaacacacacacacacacacacacacaaacacacacadaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacaaaaaaacacacacacacacacacacacacacacacacacacacacacasacacacalacacacadacacacaaacacacacacadaaacacacacacacacacacacacacaaacacacacacacacacacacacacaaacacacacacaaaa
+aaaahphphphphphphphphphphphphphphphphphpacacacaaaaaaachvacachvacachvacachvacachvacachvacachvacasacacacalacacacacacachxaaacacacacacacaaacacacacacacacacacacacacaaacacacacacacacacacacacacaaacacacacadaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacaaaaaaachwacachwacachwacachwacachwacachwacachwacasacacacalacacacadacachxaaacazazazazazaaadadadadadacadadadadadadaaacacacacacacacacacacacacaaacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacaaaaaaacacacacacacacacacacacacacacacacacacacacacasacacacalacacacacacachxaaacaaaaaaaaaaaaaaaaaaaaaaacaaaaaaaaaaaaaahxhxhxhxhxacacachxhxhxhxaaacacacacadaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeasacacacalacacacadacachxaaacacacacacacacacacacacacacacacacacacaccqaaaaaaaaaaacacacaaaaaaaaaaacacacacacaaaa
+aaaahphphphphphphphphphphphphphphphphphpacacacacacacacacacacacacacacacacacacacacacacacacacachyasacacacalacacacacacacacaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacasacacacalacacacadacachxaaacacacacacacacacacacacacacacacacacachzaaaaaaacacacacacacacacacacacacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacaaaaaaacacacacacacacacacacacacacacacacacacacacacasacacacalacacacacacachxaaacaaaaaaaaaaaaaaaaaaaaaaacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacacacaaaaaaaa
+aaaaachwhAhwachwhAhwachwhAhwachwhAhwacacacacacaaaaaaachvacachvacachvacachvacachvacachvacachvacasacacacalacacacadacachxaaacazazazazazaaadadadadadacadadadadadadaaabacacadadacadadacadadacaaacacacacadaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacaaaaaaachwacachwacachwacachwacachwacachwacachwacasacacacalacacacacacachxaaacacacacacacaaacacacacacacacacacacacacaaazacacacacacacacacacacacaaacacacacacaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacaaaaaaacacacacacacacacacacacacacacacacacacacacacasacacacalacacacadacacacaaacacacacacadaaacacacacacacacacacacacacaaabacacacacacacacacacacacaaacacacacadaaaa
+aaaaacacacacacacacacacacacacacacacacacacacacacaaaaaaachvacachvacachvacachvacachvacachvacachvacasacacacalacacacacacachxaaacacacacacadaaacacacacacacacacacacacacaaazacacacacacacacacacacacacacacacacacaaaa
+aaaaachwhAhwachwhAhwachwhAhwachwhAhwacacacacacaaaaaaachwacachwacachwacachwacachwacachwacachwacasacacacalacacacadacachxaaacacacacacacaaacacacacacacacacacacacacaaabacacacacacacacacacacacaaacacacacadaaaa
+aaaaaeacacacacacacacacacacacacacacacacacacacaeaaaaaaacacacacacacacacacacacacacacacacacacacacacaaacacacaaacacacacacacacaaababababababaaacacacacacacacacacacacacaaazacacadacadacacadacadacaaacacacacacaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahBhBaahChCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
