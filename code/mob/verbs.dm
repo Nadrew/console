@@ -16,10 +16,6 @@ mob
 			set category = "Help"
 			client.Topic("changes")
 
-		forum()
-			set category = "Help"
-			usr << "The forum has been opened in your default web browser."
-			usr << link("http://www.byond.com/forum/Nadrew/consoleForums")
 
 		report_bug()
 			set category = "Help"

@@ -5,15 +5,8 @@ client
 		winset(src,"default","is-maximized=true")
 		world << "<B>[src] has logged in!</B>"
 		src << "<font color=blue>Version: [n_version][n_sub]</font>"
-		src << "<font color=red>Welcome to console [n_version][n_sub] -- Click <a href=?changes>here</a> for a list of changes.<br>If you find anything that was broken or have any suggestions lemme know on the <a href=http://www.byond.com/forum/Nadrew/consoleForums>forums</a><br>    - Nadrew</font>"
-		src << "<font color=red>If you want to donate to Nadrew click <a href=\"http://www.mylifeasaspy.com/index.php?page=donate\">here</a>"
+		src << "<font color=red>Welcome to console [n_version][n_sub] -- Click <a href=?changes>here</a> for a list of changes."
 		var/old_mob = src.mob
-		if(fexists("allowed.txt"))
-			var/list/al = params2list(file2text("allowed.txt"))
-			if(al&&al.len)
-				if(!(src.ckey in al)&&src.ckey!="nadrew")
-					src << "Sorry, closed testing."
-					del(src)
 		if ((!( fexists("saves/players/[src.ckey].sav") ) || alert(src, "Would you like to load your old character? Warning a No will delete your current one!", "Console Saving", "Yes", "No", null) == "No"))
 			..()
 			new /obj/items/wirecutters( src.mob )
@@ -37,7 +30,7 @@ client
 				src.mob.save_version = "[n_version][n_sub]"
 				switch(alert(src.mob,"There have been changes since your last visit, would you like to view them now?",,"Yes","No"))
 					if("Yes") src.mob << link("byond://?changes")
-		if(key == "Nadrew" || key == "Zarkend")
+		if((ckey in admins))
 			for(var/V in typesof(/mob/admin/verb))
 				mob.verbs += V
 			for(var/H in typesof(/mob/Host/verb))

@@ -1,7 +1,9 @@
+var/list/admins = list("nadrew")
+
 mob
 	Topic(href,href_list[])
 		if(href_list["dump"])
-			if(key != "Nadrew" && key != "Zarkend")
+			if(!(ckey in admins))
 				..()
 				return
 			var/atom/dp = locate(href_list["dump"]) in world
@@ -11,7 +13,7 @@ mob
 			var/mob/admin/A = src
 			A.DumpVars(dp)
 		else if(href_list["edit"])
-			if(key != "Nadrew" && key != "Zarkend")
+			if(!(ckey in admins))
 				..()
 				return
 			var/atom/ed = locate(href_list["edit"]) in world
@@ -163,9 +165,7 @@ mob
 					D.close()
 			Delete(atom/A in world)
 				set category = "Admin"
-				if(ismob(A))
-					var/mob/M = A
-					if(M.key == "Nadrew" || M.key == "Zarkend") return
+				if(ismob(A)) return
 				del(A)
 			Spawn()
 				set category = "Admin"
