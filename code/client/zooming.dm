@@ -1,6 +1,5 @@
 obj
 	zoom_plane
-		mouse_opacity  = 0
 		plane = 0
 		appearance_flags = PLANE_MASTER | PIXEL_SCALE
 		screen_loc = "1,1"
