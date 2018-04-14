@@ -14,6 +14,7 @@ client
 			new /obj/items/toolbox( src.mob )
 			new /obj/items/pen( src.mob )
 			new /obj/items/GPS( src.mob )
+			src.mob.save_version = "[n_version][n_sub]"
 			src.mob.saving = "yes"
 		else
 			var/savefile/F = new("saves/players/[src.ckey].sav")
