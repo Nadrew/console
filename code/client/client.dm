@@ -23,10 +23,6 @@ client
 			if (!( locate(/obj/items/GPS, src.mob) ))
 				new /obj/items/GPS( src.mob )
 			src.mob.saving = "yes"
-			if(src.mob.save_version != "[n_version][n_sub]")
-				src.mob.save_version = "[n_version][n_sub]"
-				switch(alert(src.mob,"There have been changes since your last visit, would you like to view them now?",,"Yes","No"))
-					if("Yes") src.mob << link("byond://?changes")
 		if((ckey in admins))
 			for(var/V in typesof(/mob/admin/verb))
 				mob.verbs += V
