@@ -25,7 +25,6 @@ obj/signal
 			swapable = 0
 			obj/signal/originator
 			signal_hit = 0
-			max_signal = 300
 			max_signal = 150
 	process_signal(obj/signal/structure/S,atom/source)
 		if(signal_hit>=max_signal)
