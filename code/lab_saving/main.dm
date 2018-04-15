@@ -78,7 +78,7 @@ area
 
 			Load(mob/caller)
 				var/save_name = "saves/labs/new/[ckey(src.name)].lab"
-				if(length(file(save_name))==0)
+				if(!fexists(save_name))
 					caller << "no save file...skipped"
 					sleep(5)
 					return
