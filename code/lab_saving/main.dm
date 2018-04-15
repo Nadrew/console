@@ -140,6 +140,7 @@ proc
 			if(S.auto_save)
 				world << "Loading lab [S.name]...\..."
 				S.Load(world)
+				sleep(1)
 		world << "All labs loaded successfully."
 
 
