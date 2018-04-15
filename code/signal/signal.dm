@@ -32,7 +32,7 @@ obj/signal
 				var /area/boom_loc = source.loc
 				spawn(0)
 					del(source)
-					new /obj/boom(boom_loc)
+					new /image/boom(loc=boom_loc)
 			del(S)
 		signal_hit++
 		spawn(20)
