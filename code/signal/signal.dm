@@ -28,6 +28,11 @@ obj/signal
 			max_signal = 150
 	process_signal(obj/signal/structure/S,atom/source)
 		if(signal_hit>=max_signal)
+			if(istype(source,/obj/signal/wire))
+				var /area/boom_loc = source.loc
+				spawn(0)
+					del(source)
+					new /obj/boom(boom_loc)
 			del(S)
 		signal_hit++
 		spawn(20)
