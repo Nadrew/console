@@ -92,7 +92,6 @@ area
 					M.save_y = M.y
 					M.save_z = M.z
 				if(myowner) myowner.my_labs -= src
-				var/save_name = "saves/labs/new/[ckey(src.name)].lab"
 				var/savefile/F = new("[save_name]")
 				for(var/obj/O in src)
 					if(!istype(O,/obj/items))
