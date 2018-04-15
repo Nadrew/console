@@ -98,15 +98,17 @@ area
 						del(O)
 				var/area/save_location/loaded
 				F["lab"] >> loaded
-				if(!loaded) return
+				if(!loaded)
+					caller << "failed"
+					return
 				if(myowner) myowner.my_labs += loaded
 				for(var/mob/M in mobs_in_me)
 					M.loc = locate(M.save_x,M.save_y,M.save_z)
 				for(var/mob/M in loaded)
 					if(!M.client) del(M)
-				if(caller)
-					caller << "[loaded.name] successfully loaded."
+				caller << "[loaded.name] successfully loaded."
 				del(src)
+				sleep(10)
 
 atom
 	movable
@@ -137,9 +139,7 @@ proc
 		for(var/area/save_location/S in labs)
 			if(S.auto_save)
 				world << "Loading lab [S.name]...\..."
-				S.Load()
-				sleep(10)
-				world << "loaded."
+				S.Load(world)
 		world << "All labs loaded successfully."
 
 
