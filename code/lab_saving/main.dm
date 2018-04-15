@@ -127,7 +127,10 @@ proc
 
 	LoadLabs()
 		world << "<b>Beginning lab loading process!</b>"
+		var/list/labs = list()
 		for(var/area/save_location/S in world)
+			labs.Add(S)
+		for(var/area/save_location/S in labs)
 			if(S.auto_save)
 				world << "Loading lab [S.name]...\..."
 				S.Load()
