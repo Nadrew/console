@@ -77,6 +77,11 @@ area
 				F["lab"] << src
 
 			Load(mob/caller)
+				var/save_name = "saves/labs/new/[ckey(src.name)].lab"
+				if(length(file(save_name))==0)
+					caller << "no save file...skipped"
+					sleep(5)
+					return
 				var/mob/myowner
 				var/list/mobs_in_me = list()
 				for(var/client/C)
