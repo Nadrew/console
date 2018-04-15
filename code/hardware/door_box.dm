@@ -72,6 +72,7 @@ obj/signal
 
 		process_signal(obj/signal/structure/S as obj in view(usr.client), obj/source as obj in view(usr.client))
 			..()
+			if(isnull(S))return
 			spawn( 2 )
 				if (S.id == "door")
 					src.connected.receive(S.params)

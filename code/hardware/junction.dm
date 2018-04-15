@@ -45,6 +45,7 @@ obj/signal/wire_junction
 		return 1
 	process_signal(obj/signal/structure/S,obj/source)
 		..()
+		if(isnull(S))return
 		S.loc = src.loc
 		S.master = src
 		if(line1)

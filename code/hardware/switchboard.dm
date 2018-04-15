@@ -51,7 +51,8 @@ obj/signal
 
 		process_signal(obj/signal/S, obj/source)
 			..()
-
+			if(isnull(S))return
+			
 			S.master = src
 			S.loc = src.loc
 			del(S)

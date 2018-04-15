@@ -36,6 +36,7 @@ obj
 			process_signal(obj/signal/structure/S,obj/source)
 				..()
 				if(!S) return
+				
 				var/obj/signal/computer/signal_system = connected[source]
 				if(signal_system)
 					if(signal_system.line1 == source||signal_system.line2 == source)

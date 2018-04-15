@@ -59,6 +59,7 @@ obj/signal
 
 		process_signal(obj/signal/S as obj in view(usr.client), obj/source as obj in view(usr.client))
 			..()
+			if(isnull(S))return
 			if (S.cur_file)
 				var/datum/file/normal/sound/F = S.cur_file
 				if (!( istype(F, /datum/file/normal/sound) ))

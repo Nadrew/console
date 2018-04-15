@@ -41,6 +41,7 @@ obj
 				line1 = null
 			process_signal(obj/signal/structure/S,obj/source)
 				..()
+				if(isnull(S))return
 				S.loc = src.loc
 				S.master = src
 				if(S.id == "toggle")
