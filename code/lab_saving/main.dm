@@ -77,6 +77,11 @@ area
 				F["lab"] << src
 
 			Load(mob/caller)
+				var/save_name = "saves/labs/new/[ckey(src.name)].lab"
+				if(!fexists(save_name))
+					caller << "no save file...skipped"
+					sleep(5)
+					return
 				var/mob/myowner
 				var/list/mobs_in_me = list()
 				for(var/client/C)
@@ -87,22 +92,23 @@ area
 					M.save_y = M.y
 					M.save_z = M.z
 				if(myowner) myowner.my_labs -= src
-				var/save_name = "saves/labs/new/[ckey(src.name)].lab"
 				var/savefile/F = new("[save_name]")
 				for(var/obj/O in src)
 					if(!istype(O,/obj/items))
 						del(O)
 				var/area/save_location/loaded
 				F["lab"] >> loaded
-				if(!loaded) return
+				if(!loaded)
+					caller << "failed"
+					return
 				if(myowner) myowner.my_labs += loaded
 				for(var/mob/M in mobs_in_me)
 					M.loc = locate(M.save_x,M.save_y,M.save_z)
 				for(var/mob/M in loaded)
 					if(!M.client) del(M)
-				if(caller)
-					caller << "[loaded.name] successfully loaded."
+				caller << "[loaded.name] successfully loaded."
 				del(src)
+				sleep(10)
 
 atom
 	movable
@@ -127,12 +133,14 @@ proc
 
 	LoadLabs()
 		world << "<b>Beginning lab loading process!</b>"
+		var/list/labs = list()
 		for(var/area/save_location/S in world)
+			labs.Add(S)
+		for(var/area/save_location/S in labs)
 			if(S.auto_save)
 				world << "Loading lab [S.name]...\..."
-				S.Load()
-				sleep(10)
-				world << "loaded."
+				S.Load(world)
+				sleep(1)
 		world << "All labs loaded successfully."
 
 

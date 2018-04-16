@@ -33,7 +33,7 @@ obj/signal
 
 		process_signal(S as obj in view(usr.client), source as obj in view(usr.client))
 			..()
-
+			if(isnull(S))return
 			spawn( 2 )
 				if (src.line1)
 					src.line1.process_signal(S, src)

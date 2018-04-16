@@ -37,6 +37,8 @@ obj
 				moved()
 					return 1
 			process_signal(obj/signal/structure/S)
+				..()
+				if(isnull(S))return
 				var
 					id = S.id
 					list/params = splittext(S.params,ascii2text(2))

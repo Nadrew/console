@@ -38,7 +38,8 @@ obj/signal
 
 		process_signal(obj/signal/S as obj in view(usr.client), obj/source as obj in view(usr.client))
 			..()
-
+			if(isnull(S))return
+			
 			S.loc = null
 			S.master = src
 			if (src.printing)

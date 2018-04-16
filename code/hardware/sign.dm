@@ -46,6 +46,7 @@ obj
 						my_sign.SetText(default_text,src.text_color,src.shadow_color)
 			process_signal(obj/signal/structure/S,obj/source)
 				..()
+				if(isnull(S))return
 				S.loc = src.loc
 				S.master = src
 				if(S.id == "text")

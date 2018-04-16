@@ -25,9 +25,14 @@ obj/signal
 			swapable = 0
 			obj/signal/originator
 			signal_hit = 0
-			max_signal = 300
+			max_signal = 150
 	process_signal(obj/signal/structure/S,atom/source)
 		if(signal_hit>=max_signal)
+			if(istype(source,/obj/signal/wire))
+				var /area/boom_loc = source.loc
+				spawn(0)
+					del(source)
+					new /image/boom(loc=boom_loc)
 			del(S)
 		signal_hit++
 		spawn(20)

@@ -51,6 +51,7 @@ obj/signal
 
 		process_signal(obj/signal/structure/S, obj/source)
 			..()
+			if(isnull(S))return
 			if(istype(src,/obj/signal/antenna/dish)) return
 			S.loc = null
 			S.master = src

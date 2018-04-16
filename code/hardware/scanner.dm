@@ -22,6 +22,8 @@ obj
 					line1.disconnectfrom(src)
 				line1 = null
 			process_signal(obj/S)
+				..()
+				if(isnull(S))return
 				del(S)
 			attack_by(obj/PA, mob/user)
 				if(user.equipped)

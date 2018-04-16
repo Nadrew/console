@@ -90,6 +90,7 @@ obj
 			process_signal(obj/signal/structure/S,atom/source)
 				..()
 				if(!S) return
+				
 				S.loc = src.loc
 				S.master = src
 				if(source != line1)
