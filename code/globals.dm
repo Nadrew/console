@@ -15,6 +15,7 @@ world
 	New()
 		..()
 		status = "Version [n_version][n_sub]"
+		LoadAdmins()
 		LoadConfig()	
 		// Initialize with loaded config.
 		for(var/obj/s)

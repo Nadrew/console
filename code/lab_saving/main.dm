@@ -225,7 +225,6 @@ mob
 // Happens on world creation. Loads Lab door_codes from a json.
 world/proc/LoadConfig()
 	var/json = file2text("config/door_codes.json")
-	world << json
 	if(!json)
 		var/json_file = file("config/door_codes.json")
 		if(!fexists(json_file))

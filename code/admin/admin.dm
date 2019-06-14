@@ -1,4 +1,15 @@
-var/list/admins = list("nadrew")
+var/list/admins
+
+world/proc/LoadAdmins()
+	var/json = file2text("config/admins.json")
+	if(!json)
+		var/json_file = file("config/admins.json")
+		if(!fexists(json_file))
+			world << "Failed to admins.json. File likely corrupt."
+			return
+		return
+	admins = json_decode(json)
+	return 0
 
 mob
 	Topic(href,href_list[])
@@ -75,6 +86,9 @@ mob
 				var/save_contents = F.ExportText("/")
 				usr << browse("<pre>[save_contents]</pre>","debug_browser.browser")
 				winshow(usr,"debug_browser",1)
+			ReloadAdmins()
+				set category = "Admin"
+				world.LoadAdmins()
 			ViewLog()
 				set category = "Admin"
 				var/logdata = file2text("console.log")
