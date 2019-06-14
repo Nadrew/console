@@ -4,6 +4,7 @@ obj/signal
 		icon = 'icons/computer.dmi'
 		icon_state = "box"
 		var/keycode = null
+		var/doorcode_ref = null
 		var/obj/door/connected = null
 		id = "0"
 		var/s_id = "0"
@@ -30,6 +31,14 @@ obj/signal
 				if(open_lab)
 					connected.open()
 			..()
+
+		Initialize()
+			// If doorcode_ref is present in the door_codes.json config then set the default keycode from it.
+			if (doorcode_ref != null)
+				if (door_codes[doorcode_ref] != null)
+					src.keycode = door_codes[doorcode_ref]
+			..()
+			
 		proc
 			receive(code in view(usr.client))
 

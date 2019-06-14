@@ -2,6 +2,7 @@ var
 	n_version = "N2.3"
 	n_sub = ".0"
 	list/rsc_fonts = list('fonts/CALLIGRA.ttf')
+	list/door_codes = list()
 
 world
 	mob = /mob
@@ -14,6 +15,11 @@ world
 	New()
 		..()
 		status = "Version [n_version][n_sub]"
+		LoadConfig()	
+		// Initialize with loaded config.
+		for(var/obj/s)
+			s.Initialize()
+
 datum
 	var
 

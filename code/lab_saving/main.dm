@@ -221,3 +221,16 @@ mob
 					src.verbs += V
 		if(has_lab)
 			winset(src,"menu.lab_control","is-disabled=false")
+
+// Happens on world creation. Loads Lab door_codes from a json.
+world/proc/LoadConfig()
+	var/json = file2text("config/door_codes.json")
+	world << json
+	if(!json)
+		var/json_file = file("config/door_codes.json")
+		if(!fexists(json_file))
+			world << "Failed to load door codes. File likely corrupt."
+			return
+		return
+	door_codes = json_decode(json)
+	return 0

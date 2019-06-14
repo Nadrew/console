@@ -275,7 +275,7 @@
 "fo" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 1; name = "Tomeno's Lab"; owner = "tomeno"})
 "fp" = (/obj/signal/antenna,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
 "fq" = (/obj/signal/sign_box{default_text = "Rockdtben's Lab"; dir = 1; sign_dir = 9},/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
-"fr" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "beansandcorn"},/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
+"fr" = (/obj/signal/box{d_dir = 5; dir = 1; keycode = "beansandcorn"; doorcode_ref = "rockdtben_lab"},/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
 "fs" = (/obj/filecabinet,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
 "ft" = (/obj/trashcan,/turf/floor,/area/save_location{auto_save = 1; name = "Rockdtben's Lab"; owner = "rockdtben"})
 "fu" = (/obj/signal/hub,/turf/floor,/area/save_location{name = "W12W's Lab"; owner = "W12W"})

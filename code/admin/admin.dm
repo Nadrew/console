@@ -64,7 +64,11 @@ mob
 				if(!save_loc) return
 				save_loc.Load("saves/labs/[ckey(save_loc.name)].lab")
 				src << "[save_loc.name] loaded."
-
+			Print_Config_Door_Codes()
+				set category = "Admin"
+				var/p
+				for(p in door_codes)
+					src << "[p] = [door_codes[p]]"
 			ReadSavefile(save as text)
 				set category = "Admin"
 				var/savefile/F = new(save)
