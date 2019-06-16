@@ -1,0 +1,152 @@
+
+[page]Lesson 1: Using Console[body]<br><br><font color="blue">All
+ computers on Console must be operated, to be used. You can right click a
+ computer and click operate to start this. After the computer loads up, 
+you will be in the root/usr directory. The root, is the highest point of
+ the computer. It's where everything begins. Many of Console's commands 
+can be listed just by typing <b>help</b>. The ones you will be using most often though, are <b>make</b> and <b>append</b>.
+ Append is actually not a built-in console command, but is tied to the 
+registry (located in the sys) folder. It's a program that comes with 
+most Console computers. If you try <b>make file.txt</b> you will make a file called file.txt. You can then <b>append file.txt</b> to start writing in it. Others can then read file.txt by typing <b>read file.txt</b>. Try experimenting with the various commands under <b>help</b>. If you want help on a specific command, like for example, make, you would type <b>help make</b>. The last command of note, would be <b>cd</b>. It is what takes you to various parts of the computer.<br><br><b>cd ..</b> would take you to the higher level of the directory. The highest level is always the root.<br><br><b>cd /</b> or <b>cd root</b> takes you to the root of the computer.<br><br><b>cd [foldername]</b> takes you to the folder you want to see. To see a list of files and folders, you would type <b>display</b>.<br><br>And lastly noted, a computer can only run around 5 programs/scripts at once.</font><hr>
+
+[page]Lesson 2: Scripting[body]<br><br><font color="blue">Scripting
+ is the basic form of programming in Console. Scripts are files that 
+simply use Console commands in an order. An example script would be...<br><br><tt>echo Hello;delay 30;echo Goodbye</tt><br><br>The
+ echo means, to display on the screen. Anything following an echo 
+appears on the screen, such as the Hello. A ; seperates commands from 
+one another. The delay, delays the game for that many ticks. 10 ticks 
+equals 1 second, so that script delays for 3 seconds before continuing 
+the next action. And then the last echo says Goodbye before ending the 
+script.<br><br>Scripts can be compiled to prevent people from reading 
+them. The program scr_compiler.exe in a Console's bin folder can do 
+this. <b>run /bin/scr_compiler.exe file.txt</b> would compile file.txt 
+as a script. And anytime someone ran file.txt, it would execute it's 
+contents. You cannot use the regular compiler however, as that is for 
+ExCode only.</font><hr>
+
+[page]Lesson 3: Simple Networking[body]<br><br><font color="blue">The
+ most simple way to network computers, is to hook them up directly. With
+ wire you can hook two computers by double clicking each of them with 
+the wire equipped. [You can make wire from under the make tab]<br><br>When
+ computers are hooked up, you can send files from one to another, or 
+commands using the extern function. Extern is quite advanced though, and
+ not listed in this book. <b>send 01 21 file.txt</b> would normally send
+ a file.txt from the computer on port 01 to the computer on port 21. The
+ ports are decided based on where they are hooked into a router, hub, or
+ other networking device. If two computers are directly linked though, 
+it will not matter what numbers are used. One number of note is 100. It 
+sends the file to everything on the network. An example of this would be
+ <b>send 100 100 file.txt</b>.<br><br>This is an easy way to email 
+others. You can have computers in different rooms hooked up by wire and 
+communicate with each other. All files that are sent to each other will 
+be in the computer's root/tmp directory. This is also a great way to 
+print files. Hook a computer directly to a printer, and send the printer
+ files to print!</font><hr>
+
+[page]Lesson 4: Networking with Hubs[body]<br><br><font color="blue">Hubs
+ are the basic network utility for a console computer. Anything hooked 
+up to a hub sends to everything else hooked up to the hub. For this 
+lesson you will need two Console computers, wire, and a hub.<br><br>Hook
+ the first computer up to the hub. It should say something about 0 to 
+20. This is in-accurate. Console doesn't give the correct numbers. 0-20 
+is actually 0-19, 20-40 is 20-39, and so on and so forth. But the 
+numbers mean nothing for now because hubs send everything to all the 
+devices on the network. Hook the second computer up, and it will talk 
+about 20-40 which again is actually 20-39, for your own reference.<br><br>Make a file on the first computer, and type <b>send 100 100 [file]</b>.
+ Replace [file] with the name of the file you made. Go to the other 
+computer, and go to it's root/tmp directory. You should find that file 
+there. If you wrote anything in it, you can read it. Congratulations, 
+you've used your first hub. Hubs are great for sharing files and 
+information across many computers, but not for things like emailing. 
+Because the email would be sent to all the computers, rather than just 
+one. For something like that you want wireless or router networking.</font><hr>
+
+[page]Lesson 5: Basic ExCode[body]<br><br><font color="blue">ExCode
+ is easy, once you've had the time to associate yourself with it. Taking
+ a look at source code, even after being around it for a day or two, can
+ still be confusing. That is why there is this guide to ExCode. Basic 
+ExCode will teach you how to make a program that uses Console commands, 
+like scripting, except it does not have the limit of just using console 
+commands. The lesson after this will teach you more.<br><br>The main part of ExCode having to deal with Console is <b>shell;</b>. This runs a command through Console's shell. So, a <b>shell;"restart</b>
+ would restart the computer. Why is there a " there? Because without it,
+ it would try to use a variable named restart. Since we haven't made a 
+variable named restart, it would be empty, and the program would run a 
+useless command.<br><br>ExCode must also be put in differently than a script. You must mass-add ExCode, in a form like the following...<br><br><tt>shell;"echo Hello world.<br>shell;"delay 30<br>shell;"echo 3 seconds have passed.<br>shell;"delay 30<br>shell;"echo 3 more seconds have passed. Goodbye.</tt><br><br>Every
+ new function of ExCode is on a new line. Recognize the echo and delay? 
+That's right. You use those in scripting. Anything you would use in 
+scripting can be used with the shell function of ExCode. But it's 
+important to have the " placed before anything you would use as a 
+command.<br><br>There is also the <b>id</b> and <b>goto</b> functions. The goto function takes you to the ID named in Goto, and continues the program from there.<br><br><tt>shell;"echo SHUTTING DOWN!!<br>goto;cancel<br>shell;"shutdown<br>id;cancel<br>shell;"echo Just kidding.</tt><br><br>If you can understand this so far, it would look like this is going to shutdown the computer. But the <b>goto;cancel</b> will skip the program's code until it reaches <b>id;cancel</b>. It will then continue from there, and echo the Just Kidding message.<br><br>The
+ last, and most important thing to know about ExCode, is that it CANNOT 
+run uncompiled. After making your program (most ExCode programs are 
+named with a .exe extension) you need to compile it. Most Console 
+computers include the proper Compiler. Try <b>run /bin/compiler.exe [filename]</b> but replace [filename] with the name of your ExCode program.</font><hr>
+
+[page]Lesson 6: Menus in ExCode[body]<br><br><font color="blue">ExCode
+ can be used to create menus. Obviously, you would want these if you 
+were to make a program that asked questions, right? Below is a source 
+code to a <tt>yes</tt> or <tt>no</tt> prompt.<br><br><tt>shell;"echo Would you like to restart?<br>id;null_input<br>set;input:"1;null<br>id;null<br>if;input:"1;==;null;null<br>if;input:"1;==;"yes;go<br>if;input:"1;==;"no;stop<br>shell;"echo yes or no only please.<br>goto;null_input<br>id;go<br>shell;"restart<br>id;stop<br>shell;"echo Ending program.</tt><br><br><b>input:"1</b> is a variable that changes to anything a user types into a computer. The <tt>if</tt>
+ function of ExCode checks if a variable is equal to a certain value. 
+That value can be another variable, or a specific value you code in. In <tt><b>if;input:"1;==;"yes;go</b></tt> it checks to see if the variable <b>input:"1</b> equals the value <b>"yes</b>.
+ As shown in the previous lesson, the " distinguishes it from a value 
+and a variable. Without the " it would compare it to another variable 
+named yes. If the input does equal yes, then it goes to the id named go.<br><br>We
+ also have to null the current input before we ask for a yes or no, and 
+set the program to loop at that spot until the user types something in. 
+If the input is null (nothing in it), then it goes to the id null, by 
+what the above example says. Where it says, <b>shell;"echo yes or no only please</b>
+ it echoes the shown message if you input something that's not in your 
+options menu. Below that, is a goto function that takes it back to the 
+id null_input.<br><br>That is the end of Lesson 6. If you combine what 
+you know with lesson 5, you should be able to make programs that do 
+functions in console based on what you type in. Such as, if you wanted 
+to make someone type yes or no, to copy a specific file. That would make
+ an easy install file. To copy a file using ExCode, you would use the 
+shell. <b>shell;"copy [filename] [location]</b> but replace the items in brackets with what you would like to do.</font><hr>
+
+[page]Lesson 7: Console Commands[body]<br><br><font color="blue">These commands run once console is called for in the computer. It is by default in a console computer when it turns on.<br><br><tt>help</tt> - Brings up the help menu in Console.<br><tt>cd [dir]</tt> - The default 'go' command in Console. It moves from directory to directory. The [dir] needs to be replaced with <tt>..</tt> , <tt>/</tt> , or a full directory path.<br><tt>console</tt>
+ - This is actually used in a boot file only, and activates console so 
+that you may input commands into the computer. Read /sys/boot.sys for an
+ example.<br><tt>copy [file] [location]</tt> - Copies the [file] to [location].<br><tt>del [file/dir]</tt> - Deletes the file or directory.<br><tt>delay #</tt> - Delays a script or program for # ticks. 10 ticks is equal to 1 second.<br><tt>display</tt> - Displays the contents of the directory you're currently in.<br><tt>drive</tt> - Takes you to the A:/ drive if you have a disk put in the computer.<br><tt>echo [text]</tt> - Displays [text] on the screen. Used mostly in programming.<br><tt>eject</tt> - Ejects the disk from the computer.<br><tt>make [name]</tt> - Makes a file named [name].<br><tt>makedir [name]</tt> - Makes a directory named [name].<br><tt>restart</tt> - Restarts the computer.<br><tt>read [file]</tt> - Reads the contents of [file].<br><tt>rename [file] [name]</tt> - Renames the [file] to [name].<br><tt>root</tt> - Takes you to the root directory.<br><tt>run [file]</tt> - Runs [file] as a script or program, based on if and how it's compiled.<br><tt>shutdown</tt> - Shuts the computer off.<br><br>If the Console still has all of it's default contents, you can also use the following two commands.<br><br><tt>append [file]</tt> - Runs the built-in word processor on [file].<br><tt>write [file]</tt> - Erases the contents of [file] and runs the built-in word processor on [file].</font><hr>
+
+[page]Lesson 8: OS Commands[body]<br><br><font color="blue">OS Commands can be used in scripting and ExCode, once the os.sys is loaded. It is loaded by default on most console computers.<br><br><tt>file_clear [file]</tt> - Clears all of the text in the file.<br><tt>file_exists [file]</tt> - Needs to be used in ExCode to work properly. Tells you if the [file] exists or not.</font><br><font color="red"><tt>shell;"file_exists /usr/test.txt<br>if;err_level;==;"true;file_exist</tt><br><font color="blue">If test.txt does exist, the program goes to id;file_exist.<br><tt>file_add [file] [text]</tt>
+ - Adds to [file] the [text]. [newline] creates a new line in the file 
+(useful if CREATING ExCode directly) and any semicolons (;) need to be 
+replaced with [semi].<br><tt>send [source] [destination] [file]</tt> - Sends [file] from the computer on port [source] to the computer on port [destination].<br><tt>extern [source] [destination] [id] [parameters]</tt>
+ - Sends [parameters] to the [id] on the computer in port [destination] 
+from the computer on port [source]. -2 should not be used for the ID, -1
+ is reserved, 0 will try to execute shell.scr, anything besides 0 or -1 
+executes packet[id].scr [src_id] [parameters]. If the packet is not 
+there, it makes packet[id].dat with text [src_id];[parameters].<br><tt>error</tt> - Unknown by Stari. Information on this is not included in this book.<br><tt>e_key #</tt>
+ - Sets the encryption key to #. The highest Encryption key available is
+ 600. Used on wireless devices only. Laptops are wireless.<br><tt>hide [file]</tt> - Hides [file] from view on display.<br><tt>reveal [file]</tt> - Reveals [file] for viewing on display.<br><tt>timestamp</tt> - Sets the error level to the current time/date. In order to assign this to a variable ExCode is needed.<br><tt>timer</tt> - Sets the error level to the current amount of ticks in the game. In order to assign this to a variable ExCode is needed.<br><tt>bios_[1-3] [file_path]</tt>
+ Sets the bootup file to [file_path]. The actual boot order the file 
+goes in is bios_1, bios_2, or bios_3. By default, bios_1 is A:/boot.sys.
+ By default, bios_2 is /sys/boot.sys. By default, bios_3 is none.<br><tt>pass_[1-3] [password]</tt> Passwords the bootup for a specific boot level.</font><hr>
+
+[page]Lesson 9: Default Console System Data[body]<br><br><font color="blue"><b>Directories</b><br><tt>usr</tt> - Default directory for bootup.<br><tt>bin</tt> - Default programs are kept here.<br><tt>sys</tt> - System files are kept here.<br><tt>log</tt> - System logs are kept here.<br><tt>tmp</tt> - Temporary files, and files recieved from networks are kept here.<br><br><b>Programs</b><br><tt>/bin/wp.exe</tt> - This is the builtin word processor. Use the write and append commands.<br><tt>/sys/kernel.sys</tt> - This should be run first on startup.<br><tt>/sys/os.sys</tt> - This should be run after the kernel.<br><br><b>Logs</b><br>If
+ a log file is deleted, a new log file is created with a different 
+startup time. Logs cannot be kept if there is no root/log folder. The 
+logs are named as the tick when it started logging.<br><br><b>Scripts</b><br><tt>See scripting.</tt><br><br><b>Registry</b><br>Located in <tt>/sys/registry/</tt>.
+ Programs here are named [name].com. If you type [name] while using 
+Console, it will run a program in the /sys/registry/ directory named 
+[name].com.<br><br><b>Shell</b><br>Externel shell access can be made if 
+you create a file called shell.scr in the /usr directory. The computer 
+sending commands via extern will automatically transfer the data 
+directly to the command line IF the id is 0.<br><br><b>Tasks</b><br>Only one program can be run at a time. But several processes can be run in the background via the <tt>back</tt>
+ command. If a program is run, it locks up console until the program 
+finishes. If a program is backgrounded, console will still run and the 
+program will complete it's duties but there will be a slight delay to 
+it's function. If you run a program from a previous program, the new 
+program will take over and freeze the old program until the new program 
+finishes.</font><hr>
+
+[page]Lesson 10: List of ExCode Functions/Commands[body]<br><br><font color="blue">comment;[text]<br>Just makes [text] the comment<br>***<br>shell;[var]<br>Passes the contents of [var] to the command prompt<br>***<br>shell;"[sting]<br>Passes the string [string] to the command prompt<br>***<br>id;[string]<br>Makes a id called [string]<br>***<br>goto;[string]<br>Goes to id [string]<br>***<br>set;[string];"[string2]<br>Makes a variable called [string] and it is filled with whats in [string2]<br>***<br>if;[variable1];[function];[variable2];[id]<br>The if command tests if [variable1] is [function] [variable2] ifso... it gotos <br>[id] [variable2] can be a string like "1 or "Blueprint Rocks! or a variable <br>[function] can be ==, &gt;=; &lt;=, &gt;, &lt;, !=<br>***<br>eval;[variable1];[function];[variable2]<br>The eval command does the equation [variable1] = [function] [variable2] [variable2] <br>can be a number like "1 or a string "Blueprint Rocks! or a variable [function] <br>can be +=, -=, *=, /=<br>***<br>end;text<br>Sets the systems err_level to text and ends the program<br>***<br>dumpfile;[file_path];[var]<br>Dumps the contents of [file_path] to [var]<br>***<br>dumppath;[file_var];[var]<br>Dumps the path of [file_var] to [var]<br>***<br>getfile;[var];[path]<br>Puts a file from [path] not the contents into [var]<br>***<br>char;[var];[number]<br>Gives the ascii character representation of [number] and puts it in [var]<br>***<br>init_list;[var]<br>Changes [var] to a list<br>***<br>list_moveup;[list]<br>Moves all the values in [list] up one so the starting value is null<br>***<br>findtext;[var];[string];[string2];[start_index];[end_index]<br>Returns
+ the starting index of [string] in [string2] if found between 
+[start_index]and [end_index]. It then puts this value into [var]<br>***<br>replacetext;[var];[string];[string2];[string3]<br>Replaces all [string2]s that are in [string] with [string3] and returns the changed string to [var].<br>***<br>copytext;[var];[string];[start_index];[end_index]<br>Returns the [string] from [start_index] to [end_index] and stores it in [var]<br>***<br>length;[var];[string]<br>Stores the length of [string] in [var]</font><hr>
+
+[page]Lesson 11: ExCode Source - Purenet[body]<br><br><i>Owned and created by <b>Dever</b></i><br><br><tt>shell;"echo PureNet - coded by Dever 10/11/04<br>char;semi;"59<br>if;arg:"4;!=;null;repn<br>set;arg:"4;"null<br>id;repn<br>set;check;"/tmp/<br>eval;check;+=;arg:"4<br>set;clearcheck;"del /tmp/<br>eval;clearcheck;+=;arg:"4<br>set;ext;"extern <br>eval;ext;+=;arg:"2<br>eval;ext;+=;" <br>eval;ext;+=;arg:"1<br>eval;ext;+=;" <br>eval;ext;+=;arg:"3<br>eval;ext;+=;" <br>shell;"echo Waiting for input..<br>id;rett<br>set;input:"1;null<br>id;n<br>getfile;checks;check<br>if;checks;!=;null;check<br>if;input:"1;==;null;n<br>replacetext;tmp2;input:"1;semi;"<br>set;tmp;"echo purenet&gt; <br>eval;tmp;+=;tmp2<br>shell;tmp<br>if;tmp2;==;".exit;exit<br>set;tmp;ext<br>eval;tmp;+=;tmp2<br>shell;tmp<br>goto;rett<br>id;check<br>dumpfile;check;tmp2<br>shell;clearcheck<br>replacetext;tmp2;tmp2;semi;"{S}<br>set;tmp;"echo <br>eval;tmp;+=;tmp2<br>shell;tmp<br>goto;rett<br>id;exit<br>if;arg:"5;==;"lock;rett<br>shell;"echo leaving purenet..<br>end;exit</tt><hr>
+
+[page]Lesson 12: ExCode Source - Options[body]<br><br><i>Owned and created by <b>Dever</b></i><br><br><tt>id;e<br>set;input:"1;null<br>id;n<br>if;input:"1;==;null;n<br>if;input:"1;==;"option1;opt1<br>if;input:"1;==;"option2;opt2<br>if;input:"1;==;"option3;opt3<br>if;input:"1;==;"option4;opt4<br>shell;"echo invalid option<br>goto;e<br>id;opt1<br>shell;"echo option1<br>end;1<br>id;opt2<br>shell;"echo option2<br>end;2<br>id;opt3<br>shell;"echo option3<br>end;3<br>id;opt4<br>shell;"echo option4<br>end;4</tt><hr>
+
+[page]Credits and Authors[body]<br><br><font color="red" face="Lucida Sans">Stari for the lessons writing, and compiling the book.<br><br>ZJM7891 for the various ExCode function definitions.<br><br>P90Killer for providing some reference material.<br><br>Dever for source codes, and teaching Stari how to use Console.</font>
