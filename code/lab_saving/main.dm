@@ -230,8 +230,18 @@ world/proc/LoadConfig()
 		var/json_file = file("config/door_codes.json")
 		if(!fexists(json_file))
 			world.log << "Failed to load door codes. File likely corrupt."
-			return
-		return
-	door_codes = json_decode(json)
-	world.log << "Door Code Config Loaded"
+	else
+		door_codes = json_decode(json)
+		world.log << "Door Code Config Loaded"
+
+world/proc/LoadMOTD()
+	world.log << "MOTD Loading"
+	motd = file2text("config/motd.txt")
+	if(!motd)
+		motd = ""
+		var/motd_file = file("config/motd.txt")
+		if(!fexists(motd_file))
+			world.log << "Failed to load MOTD."
+	else
+		world.log << "MOTD Loaded"
 	return 0

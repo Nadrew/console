@@ -91,6 +91,9 @@ mob
 			ReloadAdmins()
 				set category = "Admin"
 				world.LoadAdmins()
+			ReloadMOTD()
+				set category = "Admin"
+				world.LoadMOTD()
 			ViewLog()
 				set category = "Admin"
 				var/logdata = file2text("console.log")

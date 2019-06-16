@@ -3,6 +3,7 @@ var
 	n_sub = ".1R"
 	list/rsc_fonts = list('fonts/CALLIGRA.ttf')
 	list/door_codes = list()
+	motd = ""
 
 world
 	mob = /mob
@@ -18,6 +19,7 @@ world
 		
 		LoadAdmins()
 		LoadConfig()	
+		LoadMOTD()
 
 		// Initialize with loaded config.
 		for(var/obj/s)
