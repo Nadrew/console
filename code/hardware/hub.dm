@@ -45,7 +45,90 @@ obj/signal
 
 					del(S)
 					return
+		orient_to(obj/target in view(usr.client), user as mob in view(usr.client))
+			if(ismob(src.loc))
+				user << "Device must be on the ground to connect to it."
+				return 0
+			if (!( src.line1 ))
+				src.line1 = target
+				user << "Connection port: Line 1 (1)"
+				return 1
+			else
+				if (!( src.line2 ))
+					src.line2 = target
+					user << "Connection port: Line 2 (2)"
+					return 1
+				else
+					if (!( src.line3 ))
+						src.line3 = target
+						user << "Connection port: Line 3 (3)"
+						return 1
+					else
+						if (!( src.line4 ))
+							src.line4 = target
+							user << "Connection port: Line 4 (4)"
+							return 1
+						else
+							if (!( src.line5 ))
+								src.line5 = target
+								user << "Connection port: Line 5 (5)"
+								return 1
+							else
+								if (!( src.line_temp ))
+									src.line_temp = target
+									user << "Connection port: Line Action (6)"
+									return 1
+								else
+									if (!( src.line_control ))
+										src.line_control = target
+										user << "Connection port: Line Control (7)"
+										return 1
+			return 0
+		disconnectfrom(source as obj in view(usr.client))
 
+			if (src.line1 == source)
+				src.line1 = null
+			else
+				if (src.line2 == source)
+					src.line2 = null
+				else
+					if (src.line3 == source)
+						src.line3 = null
+					else
+						if (src.line4 == source)
+							src.line4 = null
+						else
+							if (src.line5 == source)
+								src.line5 = null
+							else
+								if (src.line_temp == source)
+									src.line_temp = null
+								else
+									if (src.line_control == source)
+										src.line_control = null
+		cut()
+
+			if (src.line1)
+				src.line1.disconnectfrom(src)
+			if (src.line2)
+				src.line2.disconnectfrom(src)
+			if (src.line3)
+				src.line3.disconnectfrom(src)
+			if (src.line4)
+				src.line4.disconnectfrom(src)
+			if (src.line5)
+				src.line5.disconnectfrom(src)
+			if (src.line_temp)
+				src.line_temp.disconnectfrom(src)
+			if (src.line_control)
+				src.line_control.disconnectfrom(src)				
+			src.line1 = null
+			src.line2 = null
+			src.line3 = null
+			src.line4 = null
+			src.line5 = null
+			src.line_temp = null
+			src.line_control = null
 
 		verb
 			swap(n1 as num, n2 as num)

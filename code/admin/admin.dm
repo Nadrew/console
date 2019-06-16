@@ -1,14 +1,16 @@
 var/list/admins
 
 world/proc/LoadAdmins()
+	world.log << "Admins Loading"
 	var/json = file2text("config/admins.json")
 	if(!json)
 		var/json_file = file("config/admins.json")
 		if(!fexists(json_file))
-			world << "Failed to admins.json. File likely corrupt."
+			world.log << "Failed to admins.json. File likely corrupt."
 			return
 		return
 	admins = json_decode(json)
+	world.log << "Admins Loaded"
 	return 0
 
 mob
@@ -148,7 +150,8 @@ mob
 				new no(usr.loc)
 			Reboot()
 				set category = "Admin"
-				world << "<b><font color=red>Rebooting in 30 seconds</font></b>"
+				SaveLabs()
+				world << "<b><font color=red>Rebooting in 30 seconds</font></b>"				
 				sleep(300)
 				world.Reboot()
 			Summon(mob/M as mob in world)

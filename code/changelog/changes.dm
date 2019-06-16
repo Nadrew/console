@@ -42,8 +42,19 @@ function expand(version){
 </script>
 </HEAD>
 <center><b><u>Click a version to expand its contents</u></b></center><br>
+<b><a onclick="expand('N2.3.1R')">Changes for N2.3.1R</a></b><br>
+<div id="changes_N2.3.1R" class="change_shown">
+- Labs load at server start.<br>
+- Labs save every 5 minutes.<br>
+- Labs save before reboot.<br>
+- Door_Codes are set via a config file.<br>
+- Admins are set via a config file.<br>
+- Fixes a bug in hubs/routers preventing wiring.<br>
+<br>
+</div>
+<hr>
 <b><a onclick="expand('N2.3')">Changes for N2.3</a></b><br>
-<div id="changes_N2.3" class="change_shown">
+<div id="changes_N2.3" class="change_hidden">
 - Adds security cameras.<br>
 - Refactored the source code to be more organized and faster. (For open-sourcing)<br>
 - Fixes some minor logic hiccups with ExCode's math functions.<br>
