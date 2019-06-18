@@ -46,7 +46,6 @@ datum/task/wp/process(string in view(usr.client))
 						del(src)
 
 datum/task/proc/get_data(string in view(usr.client))
-
 	if (string == "null")
 		return null
 	if ((src.master && string == "err_level"))
@@ -58,11 +57,27 @@ datum/task/proc/get_data(string in view(usr.client))
 	else
 		var/temp = findtext(string, ":", 1, null)
 		if (!( temp ))
-			return src.var_list["[string]"]
+			var/thing = src.var_list["[string]"]
+			if (thing)
+				return thing
+			else
+				return "[string]"
 		else
 			if (istype(src.var_list["[copytext(string, 1, temp)]"], /list))
 				var/L = src.var_list["[copytext(string, 1, temp)]"]
 				return L["[src.get_data(copytext(string, temp + 1, length(string) + 1))]"]
+
+datum/task/proc/set_data(var/varname, var/value)
+	var/temp = findtext(varname, ":", 1, null)
+	if (!( temp ))
+		if (istype(src.var_list["[varname]"], /list))
+			del(src.var_list["[varname]"])
+		src.var_list["[varname]"] = src.get_data("[value]")
+	else
+		if (istype(src.var_list["[copytext(varname, 1, temp)]"], /list))
+			var/L = src.var_list["[copytext(varname, 1, temp)]"]
+			L["[get_data(copytext(varname, temp + 1, length(varname) + 1))]"] = get_data("[value]")
+			src.var_list["[copytext(varname, 1, temp)]"] = L
 
 datum/task/proc/process(string in view(usr.client))
 
