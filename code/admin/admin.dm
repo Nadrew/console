@@ -153,9 +153,18 @@ mob
 				new no(usr.loc)
 			Reboot()
 				set category = "Admin"
+				world << "<b><font color=red>Rebooting Initiated</font></b>"				
 				SaveLabs()
-				world << "<b><font color=red>Rebooting in 30 seconds</font></b>"				
-				sleep(300)
+				world << "<b><font color=red>Labs Saved</font></b>"				
+				// Save PLayers
+				for(var/mob/M in world)
+					if (M.saving == "yes")
+						if(M.ckey != null)
+							var/savefile/F = new /savefile( "saves/players/[M.ckey].sav" )
+							F << M
+				world << "<b><font color=red>Players Saved</font></b>"				
+				world << "<b><font color=red>Rebooting in 5 seconds</font></b>"				
+				sleep(50)
 				world.Reboot()
 			Summon(mob/M as mob in world)
 				set category = "Admin"

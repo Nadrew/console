@@ -19,8 +19,8 @@ mob
 
 		report_bug()
 			set category = "Help"
-			usr << "The bug report forum has been opened in your default web browser."
-			usr << link("http://www.byond.com/forum/?forum=120237")
+			usr << "The github issues tracker has been opened in your default web browser."
+			usr << link("https://github.com/rockdtben/console/issues")
 
 		make_conveyor_parts()
 			set category = "make"
@@ -139,7 +139,7 @@ mob
 			return
 
 		whisper(msg as text)
-
+			msg = html_encode(copytext(msg,1,255))
 			for(var/atom/A in view(usr, 1))
 				if (A.pos_status & src.pos_status)
 					A.hear("\icon[src]<B>[usr.name]</B> whispers, '<I>[msg]</I>'", src, 2, msg, src)

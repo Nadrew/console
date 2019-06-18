@@ -40,8 +40,8 @@ mob
 		return
 
 	Login()
-
-		src.icon_state = src.gender
+		if (src.icon_state == "" || src.icon_state == "null")
+			src.icon_state = src.gender
 		src.loc = locate(/area/start)
 		src.rname = src.key
 

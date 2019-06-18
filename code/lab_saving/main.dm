@@ -12,13 +12,16 @@ obj
 		..()
 	Read(savefile/F)
 		..()
-		if(!istype(src,/obj/items))
-			if(save_x && save_y && save_z)
-				spawn(1) loc = locate(save_x,save_y,save_z)
+		if(save_x && save_y && save_z)
+			spawn(1) loc = locate(save_x,save_y,save_z)
 	items
 		Write(savefile/F)
-			if(ismob(loc)) ..()
-			if(istype(src,/obj/items/paper) && isobj(loc)) ..()
+			// What does this even do?
+			if(ismob(loc))
+				..()
+			if(istype(src,/obj/items/paper) && isobj(loc))
+				..()
+			..()
 		Read(savefile/F)
 			..()
 	signal
