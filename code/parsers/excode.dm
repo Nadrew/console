@@ -155,24 +155,23 @@ datum/task/proc/parse()
 							src.var_list[var_two] = var_one
 					counter++
 
-				if("sndsrc")
-					if(src.special_flags & FILE_FLAG_SUPER)
-						if(t1.len < 3)
-							src.master.show_message("sndsrc: Takes at least two arguments.")
+				if("sndsrc")					
+					if(t1.len < 3)
+						src.master.show_message("sndsrc: Takes at least two arguments.")
+					else
+						var/mode = "source"
+						if(t1.len >= 4)
+							mode = get_data(t1[4])
+						if(!mode) mode = "source"
+						var/datum/file/normal/sound/snd = src.master.parse2file(get_data(t1[3]))
+						if(!istype(snd,/datum/file/normal/sound))
+							src.master.show_message("Invalid file type")
 						else
-							var/mode = "source"
-							if(t1.len >= 4)
-								mode = get_data(t1[4])
-							if(!mode) mode = "source"
-							var/datum/file/normal/sound/snd = src.master.parse2file(get_data(t1[3]))
-							if(!istype(snd,/datum/file/normal/sound))
-								src.master.show_message("Invalid file type")
-							else
-								switch(mode)
-									if("source")
-										src.var_list["[t1[2]]"] = snd.s_source
-									if("data")
-										src.var_list["[t1[2]]"] = snd.text
+							switch(mode)
+								if("source")
+									src.var_list["[t1[2]]"] = snd.s_source
+								if("data")
+									src.var_list["[t1[2]]"] = snd.text
 
 					counter++
 
