@@ -180,7 +180,7 @@ datum/task/proc/parse()
 							set_data(var_two, var_one)
 					counter++
 
-				if("sndsrc")					
+				if("sndsrc")
 					if(t1.len < 3)
 						src.master.show_message("sndsrc: Takes at least two arguments.")
 					else
@@ -194,9 +194,11 @@ datum/task/proc/parse()
 						else
 							switch(mode)
 								if("source")
-									src.var_list["[t1[2]]"] = snd.s_source
+									set_data(t1[2], snd.s_source)
+									//src.var_list["[t1[2]]"] = snd.s_source
 								if("data")
-									src.var_list["[t1[2]]"] = snd.text
+									set_data(t1[2], snd.text)
+									//src.var_list["[t1[2]]"] = snd.text
 
 					counter++
 
@@ -221,10 +223,6 @@ datum/task/proc/parse()
 					counter++
 
 				if("goto")
-					/*if (t1.len >= 2)
-						if (text2num(goto_array["[t1[2]]"]) > 0)
-							sleep(1)
-							counter = text2num(goto_array["[t1[2]]"])*/
 					if (t1.len >= 2)
 						var/cnt = get_label(t1[2], goto_array)
 						if (cnt > 0)
@@ -362,16 +360,6 @@ datum/task/proc/parse()
 					counter++
 				if("set")
 					set_data(t1[2], get_data(t1[3]))
-					/*var/temp = findtext(t1[2], ":", 1, null)
-					if (!( temp ))
-						if (istype(src.var_list["[t1[2]]"], /list))
-							del(src.var_list["[t1[2]]"])
-						src.var_list["[t1[2]]"] = src.get_data(t1[3])
-					else
-						if (istype(src.var_list["[copytext(t1[2], 1, temp)]"], /list))
-							var/L = src.var_list["[copytext(t1[2], 1, temp)]"]
-							L["[get_data(copytext(t1[2], temp + 1, length(t1[2]) + 1))]"] = get_data(t1[3])
-							src.var_list["[copytext(t1[2], 1, temp)]"] = L*/
 					counter++
 				if("getfile")
 					if (src.master)
@@ -471,35 +459,35 @@ datum/task/proc/parse()
 								//src.var_list["[t1[2]]"] = "[text2num(src.var_list["[t1[2]]"]) / text2num(get_data(t1[4]))]"
 						if("++")
 							n++
-							set_data(t1[2], n)
+							set_data(t1[2], "[n]")
 							//src.var_list["[t1[2]]"] = "[n]"
 						if("--")
 							n--
-							set_data(t1[2], n)
+							set_data(t1[2], "[n]")
 							//src.var_list["[t1[2]]"] = "[n]"
 						if("<<")
 							n = n << n2
-							set_data(t1[2], n)
+							set_data(t1[2], "[n]")
 							//src.var_list["[t1[2]]"] = "[n]"
 						if(">>")
 							n = n >> n2
-							set_data(t1[2], n)
+							set_data(t1[2], "[n]")
 							//src.var_list["[t1[2]]"] = "[n]"
 						if("%")
 							n = n % n2
-							set_data(t1[2], n)
+							set_data(t1[2], "[n]")
 							//src.var_list["[t1[2]]"] = "[n]"
 						if("^")
 							n = n ^ n2
-							set_data(t1[2], n)
+							set_data(t1[2], "[n]")
 							//src.var_list["[t1[2]]"] = "[n]"
 						if("|")
 							n = n | n2
-							set_data(t1[2], n)
+							set_data(t1[2], "[n]")
 							//src.var_list["[t1[2]]"] = "[n]"
 						if("&")
 							n = n & n2
-							set_data(t1[2], n)
+							set_data(t1[2], "[n]")
 							//src.var_list["[t1[2]]"] = "[n]"
 
 						else

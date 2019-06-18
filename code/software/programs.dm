@@ -72,11 +72,11 @@ datum/task/proc/set_data(var/varname, var/value)
 	if (!( temp ))
 		if (istype(src.var_list["[varname]"], /list))
 			del(src.var_list["[varname]"])
-		src.var_list["[varname]"] = src.get_data("[value]")
+		src.var_list["[varname]"] = value
 	else
 		if (istype(src.var_list["[copytext(varname, 1, temp)]"], /list))
 			var/L = src.var_list["[copytext(varname, 1, temp)]"]
-			L["[get_data(copytext(varname, temp + 1, length(varname) + 1))]"] = get_data("[value]")
+			L["[get_data(copytext(varname, temp + 1, length(varname) + 1))]"] = value
 			src.var_list["[copytext(varname, 1, temp)]"] = L
 
 datum/task/proc/process(string in view(usr.client))
