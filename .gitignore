@@ -46,3 +46,5 @@ Thumbs.db
 *.sav
 saves/*
 /.vscode
+config/door_codes.json
+config/admins.json
