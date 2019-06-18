@@ -1,0 +1,102 @@
+[page]Basic Computing Lesson 1 - General Information[body]
+Lesson 1: Using Console All computers on Console must be operated, to be used. 
+You can right click a computer and click operate to start this. 
+After the computer loads up, you will be in the root/usr directory. 
+The root, is the highest point of the computer. 
+It's where everything begins. 
+Many of Console's commands can be listed just by typing help. 
+The ones you will be using most often though, are make and append. 
+Append is actually not a built-in console command, but is tied to the registry (located in the sys) folder. 
+It's a program that comes with most Console computers. If you try make file.txt you will make a file called file.txt. 
+You can then append file.txt to start writing in it. Others can then read file.txt by typing read file.txt. 
+Try experimenting with the various commands under help. If you want help on a specific command, like for example, make, you would type help make. 
+The last command of note, would be cd. It is what takes you to various parts of the computer. cd .. would take you to the higher level of the directory. 
+The highest level is always the root. cd / or cd root takes you to the root of the computer. 
+cd [foldername] takes you to the folder you want to see. 
+To see a list of files and folders, you would type display. 
+And lastly noted, a computer can only run around 5 programs/scripts at once. 
+
+[page]Basic Computing Lesson 2 - Scripting[body]
+Lesson 2: Scripting Scripting is the basic form of programming in Console. 
+Scripts are files that simply use Console commands in an order. An example script would be... Code: echo Hello;delay 30;echo Goodbye The echo means, to display on the screen. 
+Anything following an echo appears on the screen, such as the Hello. A ; seperates commands from one another. 
+The delay, delays the game for that many ticks. 
+10 ticks equals 1 second, so that script delays for 3 seconds before continuing the next action.
+And then the last echo says Goodbye before ending the script. 
+Scripts can be compiled to prevent people from reading them. 
+The program scr_compiler.exe in a Console's bin folder can do this. 
+run /bin/scr_compiler.exe file.txt would compile file.txt as a script. 
+And anytime someone ran file.txt, it would execute it's contents. 
+You cannot use the regular compiler however, as that is for ExCode only. 
+
+[page]Basic Computing Lesson 3 - Simple networking[body]
+Lesson 3: Simple Networking The most simple way to network computers, is to hook them up directly. 
+With wire you can hook two computers by double clicking each of them with the wire equipped. [You can make wire from under the make tab] 
+When computers are hooked up, you can send files from one to another, or commands using the extern function. 
+Extern is quite advanced though, and not listed in this book. 
+send 01 21 file.txt would normally send a file.txt from the computer on port 01 to the computer on port 21. 
+The ports are decided based on where they are hooked into a router, hub, or other networking device. 
+If two computers are directly linked though, it will not matter what numbers are used. 
+One number of note is 100. It sends the file to everything on the network. 
+An example of this would be send 100 100 file.txt. 
+This is an easy way to email others. 
+You can have computers in different rooms hooked up by wire and communicate with each other. 
+All files that are sent to each other will be in the computer's root/tmp directory. 
+This is also a great way to print files. 
+Hook a computer directly to a printer, and send the printer files to print! 
+
+[page]Basic Computing Lesson 4 - Hubs[body]
+Lesson 4: Networking with Hubs Hubs are the basic network utility for a console computer. 
+Anything hooked up to a hub sends to everything else hooked up to the hub. 
+For this lesson you will need two Console computers, wire, and a hub. Hook the first computer up to the hub. 
+It should say something about 0 to 20. 
+This is in-accurate. Console doesn't give the correct numbers. 
+0-20 is actually 0-19, 20-40 is 20-39, and so on and so forth. 
+But the numbers mean nothing for now because hubs send everything to all the devices on the network. 
+Hook the second computer up, and it will talk about 20-40 which again is actually 20-39, for your own reference. 
+Make a file on the first computer, and type send 100 100 [file]. 
+Replace [file] with the name of the file you made. 
+Go to the other computer, and go to it's root/tmp directory. 
+You should find that file there. If you wrote anything in it, you can read it. 
+Congratulations, you've used your first hub. 
+Hubs are great for sharing files and information across many computers, but not for things like emailing. 
+Because the email would be sent to all the computers, rather than just one. For something like that you want router networking. 
+If you want more help on networking, see the 'Router Help' option under the 'Help' menu of the game.
+
+[page]Basic Computing Lesson 5 - ExCode[body]
+Lesson 5: Basic ExCode ExCode is easy, once you've had the time to associate yourself with it. 
+Taking a look at source code, even after being around it for a day or two, can still be confusing. 
+That is why there is this guide to ExCode. Basic ExCode will teach you how to make a program that uses Console commands, like scripting, except it does not have the limit of just using console commands. 
+The lesson after this will teach you more. The main part of ExCode having to deal with Console is shell;. 
+This runs a command through Console's shell. 
+So, a shell;"restart would restart the computer. 
+Why is there a " there? Because without it, it would try to use a variable named restart. 
+Since we haven't made a variable named restart, it would be empty, and the program would run a useless command. 
+ExCode must also be put in differently than a script. You must mass-add ExCode, in a form like the following... 
+Code: shell;"echo Hello world. shell;"delay 30 shell;"echo 3 seconds have passed. shell;"delay 30 shell;"echo 3 more seconds have passed. Goodbye. 
+Every new function of ExCode is on a new line. Recognize the echo and delay? That's right. You use those in scripting. 
+Anything you would use in scripting can be used with the shell function of ExCode. 
+But it's important to have the " placed before anything you would use as a command. 
+There is also the id and goto functions. The goto function takes you to the ID named in Goto, and continues the program from there. 
+Code: shell;"echo SHUTTING DOWN!! goto;cancel shell;"shutdown id;cancel shell;"echo Just kidding. If you can understand this so far, it would look like this is going to shutdown the computer. But the goto;cancel will skip the program's code until it reaches id;cancel. It will then continue from there, and echo the Just Kidding message. The last, and most important thing to know about ExCode, is that it CANNOT run uncompiled. After making your program (most ExCode programs are named with a .exe extension) you need to compile it. Most Console computers include the proper Compiler. Try run /bin/compiler.exe [filename] but replace [filename] with the name of your ExCode program. 
+
+[page]Basic Computing Lesson 6 - More ExCode[body]
+Lesson 6: Menus in ExCode ExCode can be used to create menus. Obviously, you would want these if you were to make a program that asked questions, right? Below is a source code to a yes or no prompt. Code: shell;"echo Would you like to restart? id;null_input set;input:"1;null id;null if;input:"1;==;null;null if;input:"1;==;"yes;go if;input:"1;==;"no;stop shell;"echo yes or no only please. goto;null_input id;go shell;"restart id;stop shell;"echo Ending program. input:"1 is a variable that changes to anything a user types into a computer. The if function of ExCode checks if a variable is equal to a certain value. That value can be another variable, or a specific value you code in. In if;input:"1;==;"yes;go it checks to see if the variable input:"1 equals the value "yes. As shown in the previous lesson, the " distinguishes it from a value and a variable. Without the " it would compare it to another variable named yes. If the input does equal yes, then it goes to the id named go. We also have to null the current input before we ask for a yes or no, and set the program to loop at that spot until the user types something in. If the input is null (nothing in it), then it goes to the id null, by what the above example says. Where it says, shell;"echo yes or no only please it echoes the shown message if you input something that's not in your options menu. Below that, is a goto function that takes it back to the id null_input. That is the end of Lesson 6. If you combine what you know with lesson 5, you should be able to make programs that do functions in console based on what you type in. Such as, if you wanted to make someone type yes or no, to copy a specific file. That would make an easy install file. To copy a file using ExCode, you would use the shell. shell;"copy [filename] [location] but replace the items in brackets with what you would like to do. 
+
+[page]Basic Computing Lesson 7 - Console Commands[body]
+Lesson 7: Console Commands These commands run once console is called for in the computer. It is by default in a console computer when it turns on. help - Brings up the help menu in Console. cd [dir] - The default 'go' command in Console. It moves from directory to directory. The [dir] needs to be replaced with .. , / , or a full directory path. console - This is actually used in a boot file only, and activates console so that you may input commands into the computer. Read /sys/boot.sys for an example. copy [file] [location] - Copies the [file] to [location]. del [file/dir] - Deletes the file or directory. delay # - Delays a script or program for # ticks. 10 ticks is equal to 1 second. display - Displays the contents of the directory you're currently in. drive - Takes you to the A:/ drive if you have a disk put in the computer. echo [text] - Displays [text] on the screen. Used mostly in programming. eject - Ejects the disk from the computer. make [name] - Makes a file named [name]. makedir [name] - Makes a directory named [name]. restart - Restarts the computer. read [file] - Reads the contents of [file]. rename [file] [name] - Renames the [file] to [name]. root - Takes you to the root directory. run [file] - Runs [file] as a script or program, based on if and how it's compiled. shutdown - Shuts the computer off. These two commands are considered OS commands, but can be used outside of a program when needed as well. timestamp - Shows the system time (Example: Aug/ 12/ 2006 12:10:41) timer - Shows the system ticker If the Console still has all of it's default contents, you can also use the following two commands. append [file] - Runs the built-in word processor on [file]. write [file] - Erases the contents of [file] and runs the built-in word processor on [file]. 
+
+[page]Basic Computing Lesson 8 - OS Commands[body]
+Lesson 8: OS Commands OS Commands can be used in scripting and ExCode, once the os.sys is loaded. It is loaded by default on most console computers. If using these in ExCode though, it will have to be in the format... Code: shell;"file_clear test.txt shell;"file_add test.txt hello file_clear [file] - Clears all of the text in the file. file_exists [file] - Needs to be used in ExCode to work properly. Tells you if the [file] exists or not. shell;"file_exists /usr/test.txt if;err_level;==;"true;file_exist If test.txt does exist, the program goes to id;file_exist. file_add [file] [text] - Adds to [file] the [text]. [newline] creates a new line in the file (useful if CREATING ExCode directly) and any semicolons (Wink need to be replaced with [semi]. send [source] [destination] [file] - Sends [file] from the computer on port [source] to the computer on port [destination]. extern [source] [destination] [id] [parameters] - Sends [parameters] to the [id] on the computer in port [destination] from the computer on port [source]. -2 should not be used for the ID, -1 is reserved, 0 will try to execute shell.scr, anything besides 0 or -1 executes packet[id].scr [src_id] [parameters]. If the packet is not there, it makes packet[id].dat with text [src_id];[parameters]. error - Unknown by Stari. Information on this is not included in this book. e_key # - Sets the encryption key to #. The highest Encryption key available is 6500. Used on wireless devices only. Laptops are wireless. hide [file] - Hides [file] from view on display. reveal [file] - Reveals [file] for viewing on display. timestamp - Sets the error level to the current time/date. In order to assign this to a variable ExCode is needed. timer - Sets the error level to the current amount of ticks in the game. In order to assign this to a variable ExCode is needed. bios bios_[1-3] [file_path] Sets the bootup file to [file_path]. The actual boot order the file goes in is bios_1, bios_2, or bios_3. By default, bios_1 is A:/boot.sys. By default, bios_2 is /sys/boot.sys. By default, bios_3 is none. bios pass_[1-3] [password] Passwords the bootup for a specific boot level. 
+
+[page]Basic Computing Lesson 9 - Directories[body]
+Lesson 9: Default Console System Data Directories usr - Default directory for bootup. bin - Default programs are kept here. sys - System files are kept here. log - System logs are kept here. tmp - Temporary files, and files recieved from networks are kept here. Programs /bin/wp.exe - This is the builtin word processor. Use the write and append commands. /sys/kernel.sys - This should be run first on startup. /sys/os.sys - This should be run after the kernel. Logs If a log file is deleted, a new log file is created with a different startup time. Logs cannot be kept if there is no root/log folder. The logs are named as the tick when it started logging. Scripts See scripting. Registry Located in /sys/registry/. Programs here are named [name].com. If you type [name] while using Console, it will run a program in the /sys/registry/ directory named [name].com. Shell Externel shell access can be made if you create a file called shell.scr in the /usr directory. The computer sending commands via extern will automatically transfer the data directly to the command line IF the id is 0. Tasks Only one program can be run at a time. But several processes can be run in the background via the back command. If a program is run, it locks up console until the program finishes. If a program is backgrounded, console will still run and the program will complete it's duties but there will be a slight delay to it's function. If you run a program from a previous program, the new program will take over and freeze the old program until the new program finishes. 
+
+[page]Basic Computing Lesson 10 - ExCode Functions[body]
+Lesson 10: The list of ExCode functions can be found by selecting 'ExCode Reference' from the 'Help' menu.
+
+[page]Basic Computing Lesson 11 - ExCode examples[body]
+Lesson 11: ExCode Source - Purenet Owned and created by Dever (Purenet is used to help control servers. This probably won't be of use to you unless you plan on building a server computer.) Code: shell;"echo PureNet - coded by Dever 10/11/04 char;semi;"59 if;arg:"4;!=;null;repn set;arg:"4;"null id;repn set;check;"/tmp/ eval;check;+=;arg:"4 set;clearcheck;"del /tmp/ eval;clearcheck;+=;arg:"4 set;ext;"extern eval;ext;+=;arg:"2 eval;ext;+=;" eval;ext;+=;arg:"1 eval;ext;+=;" eval;ext;+=;arg:"3 eval;ext;+=;" shell;"echo Waiting for input.. id;rett set;input:"1;null id;n getfile;checks;check if;checks;!=;null;check if;input:"1;==;null;n replacetext;tmp2;input:"1;semi;" set;tmp;"echo purenet> eval;tmp;+=;tmp2 shell;tmp if;tmp2;==;".exit;exit set;tmp;ext eval;tmp;+=;tmp2 shell;tmp goto;rett id;check dumpfile;check;tmp2 shell;clearcheck replacetext;tmp2;tmp2;semi;"{S} set;tmp;"echo eval;tmp;+=;tmp2 shell;tmp goto;rett id;exit if;arg:"5;==;"lock;rett shell;"echo leaving purenet.. end;exit 
+
+[page]Basic Computing Lesson 12 -ExCode examples[body]
+Lesson 12: ExCode Source - Options Owned and created by Dever Code: id;e set;input:"1;null id;n if;input:"1;==;null;n if;input:"1;==;"option1;opt1 if;input:"1;==;"option2;opt2 if;input:"1;==;"option3;opt3 if;input:"1;==;"option4;opt4 shell;"echo invalid option goto;e id;opt1 shell;"echo option1 end;"1 id;opt2 shell;"echo option2 end;"2 id;opt3 shell;"echo option3 end;"3 id;opt4 shell;"echo option4 end;"4 

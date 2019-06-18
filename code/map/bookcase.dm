@@ -31,9 +31,9 @@ obj
 						src.density = 1
 						src.opacity = 1
 						src.icon_state = "bookcase"
-				if ((!( fname ) || !( fexists("saves/books/[fname]") )))
+				if ((!( fname ) || !( fexists("books/[fname]") )))
 					return
-			var/booktext = file2text("saves/books/[fname]")
+			var/booktext = file2text("books/[fname]")
 			var/list/L = splittext(booktext, "\[page\]")
 			var/obj/items/book/book = new /obj/items/book( usr )
 			book.name = "book- '[choice]'"
