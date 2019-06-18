@@ -12,6 +12,7 @@
 #include "code\defaults.dm"
 #include "code\globals.dm"
 #include "code\admin\admin.dm"
+#include "code\atom\defaults.dm"
 #include "code\changelog\changes.dm"
 #include "code\client\client.dm"
 #include "code\client\zooming.dm"

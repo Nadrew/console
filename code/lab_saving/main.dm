@@ -122,17 +122,17 @@ atom
 // For saving all of the labs in a loop.
 proc
 	SaveLabs()
-		world << "<b>Beginning lab saving process!</b>"
+		world.log << "<b>Beginning lab saving process!</b>"
 		for(var/area/save_location/S in world)
 			if(S.auto_save)
-				world << "Saving lab: [S.name] ([S.contents.len])...\..."
+				world.log << "Saving lab: [S.name] ([S.contents.len])...\..."
 				S.Save()
-				sleep(10)
-				world << "saved."
-		world << "All labs saved successfully."
+				sleep(1)
+				world.log << "saved."
+		world.log << "All labs saved successfully."
 
 	LoadLabs()
-		world << "<b>Beginning lab loading process!</b>"
+		world.log << "<b>Beginning lab loading process!</b>"
 		var/list/labs = list()
 		for(var/area/save_location/S in world)
 			labs.Add(S)
@@ -141,7 +141,7 @@ proc
 				world << "Loading lab [S.name]...\..."
 				S.Load(world)
 				sleep(1)
-		world << "All labs loaded successfully."
+		world.log << "All labs loaded successfully."
 
 
 
@@ -158,24 +158,24 @@ mob
 						var/obj/signal/box/B = locate() in L
 						if(B)
 							B.open()
-			SaveMyLab()
-				set name = "Save My Lab"
-				set category = "Lab Commands"
-				for(var/area/save_location/L in my_labs)
-					if(ckey(L.owner) == src.ckey)
-						src << "Saving lab: [L.name]"
-						L.Save()
-						sleep(10)
-				src << "Saving finished."
-			LoadMyLab()
-				set name = "Load My Lab"
-				set category = "Lab Commands"
-				for(var/area/save_location/L in my_labs)
-					if(ckey(L.owner) == src.ckey)
-						src << "Loading lab: [L.name]"
-						L.Load()
-						sleep(10)
-				src << "Loading finished."
+			// SaveMyLab()
+			// 	set name = "Save My Lab"
+			// 	set category = "Lab Commands"
+			// 	for(var/area/save_location/L in my_labs)
+			// 		if(ckey(L.owner) == src.ckey)
+			// 			src << "Saving lab: [L.name]"
+			// 			L.Save()
+			// 			sleep(10)
+			// 	src << "Saving finished."
+			// LoadMyLab()
+			// 	set name = "Load My Lab"
+			// 	set category = "Lab Commands"
+			// 	for(var/area/save_location/L in my_labs)
+			// 		if(ckey(L.owner) == src.ckey)
+			// 			src << "Loading lab: [L.name]"
+			// 			L.Load()
+			// 			sleep(10)
+			// 	src << "Loading finished."
 			ClearAllWires()
 				set name = "Clear All Wires"
 				set category = "Lab Commands"
@@ -221,3 +221,27 @@ mob
 					src.verbs += V
 		if(has_lab)
 			winset(src,"menu.lab_control","is-disabled=false")
+
+// Happens on world creation. Loads Lab door_codes from a json.
+world/proc/LoadConfig()
+	world.log << "Door Code Config Loading"
+	var/json = file2text("config/door_codes.json")
+	if(!json)
+		var/json_file = file("config/door_codes.json")
+		if(!fexists(json_file))
+			world.log << "Failed to load door codes. File likely corrupt."
+	else
+		door_codes = json_decode(json)
+		world.log << "Door Code Config Loaded"
+
+world/proc/LoadMOTD()
+	world.log << "MOTD Loading"
+	motd = file2text("config/motd.txt")
+	if(!motd)
+		motd = ""
+		var/motd_file = file("config/motd.txt")
+		if(!fexists(motd_file))
+			world.log << "Failed to load MOTD."
+	else
+		world.log << "MOTD Loaded"
+	return 0

@@ -44,6 +44,8 @@ mob
 		src.icon_state = src.gender
 		src.loc = locate(/area/start)
 		src.rname = src.key
+
+		src << motd
 		..()
 
 	Stat()

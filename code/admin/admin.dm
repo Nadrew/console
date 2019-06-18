@@ -1,4 +1,17 @@
-var/list/admins = list("nadrew")
+var/list/admins
+
+world/proc/LoadAdmins()
+	world.log << "Admins Loading"
+	var/json = file2text("config/admins.json")
+	if(!json)
+		var/json_file = file("config/admins.json")
+		if(!fexists(json_file))
+			world.log << "Failed to admins.json. File likely corrupt."
+			return
+		return
+	admins = json_decode(json)
+	world.log << "Admins Loaded"
+	return 0
 
 mob
 	Topic(href,href_list[])
@@ -64,13 +77,23 @@ mob
 				if(!save_loc) return
 				save_loc.Load("saves/labs/[ckey(save_loc.name)].lab")
 				src << "[save_loc.name] loaded."
-
+			Print_Config_Door_Codes()
+				set category = "Admin"
+				var/p
+				for(p in door_codes)
+					src << "[p] = [door_codes[p]]"
 			ReadSavefile(save as text)
 				set category = "Admin"
 				var/savefile/F = new(save)
 				var/save_contents = F.ExportText("/")
 				usr << browse("<pre>[save_contents]</pre>","debug_browser.browser")
 				winshow(usr,"debug_browser",1)
+			ReloadAdmins()
+				set category = "Admin"
+				world.LoadAdmins()
+			ReloadMOTD()
+				set category = "Admin"
+				world.LoadMOTD()
 			ViewLog()
 				set category = "Admin"
 				var/logdata = file2text("console.log")
@@ -130,7 +153,8 @@ mob
 				new no(usr.loc)
 			Reboot()
 				set category = "Admin"
-				world << "<b><font color=red>Rebooting in 30 seconds</font></b>"
+				SaveLabs()
+				world << "<b><font color=red>Rebooting in 30 seconds</font></b>"				
 				sleep(300)
 				world.Reboot()
 			Summon(mob/M as mob in world)
