@@ -39,6 +39,8 @@ datum/task/proc/parse()
 	//src.var_list["semi"] = "\[semi\]"
 	//src.var_list["newline"] = "\[newline\]"
 	//src.var_list["space"] = "\[space\]"
+	var_list["retstack"] = list()
+	var_list["retindex"] = "0"
 	while((command_list.len >= counter && (src.master && src.master.sys_stat >= 1)))
 		// Changed this to a counter-based loop so the sleep() only fires every x loops.
 		// This allows excode to execute faster than one line per-tick.
@@ -132,7 +134,6 @@ datum/task/proc/parse()
 							src.master.show_message("uppertext: Invalid argument(s) supplied.")
 						else
 							var_one = uppertext(var_one)
-							//src.var_list[var_two] = var_one
 							set_data(var_two, var_one)
 					counter++
 				if("lowertext")
@@ -146,7 +147,6 @@ datum/task/proc/parse()
 							src.master.show_message("lowertext: Invalid argument(s) supplied.")
 						else
 							var_one = lowertext(var_one)
-							//src.var_list[var_two] = var_one
 							set_data(var_two, var_one)
 					counter++
 
@@ -161,7 +161,6 @@ datum/task/proc/parse()
 							src.master.show_message("md5: Invalid argument(s) supplied.")
 						else
 							var_one = md5(var_one)
-							//src.var_list[var_two] = var_one
 							set_data(var_two, var_one)
 					counter++
 
@@ -176,7 +175,6 @@ datum/task/proc/parse()
 							src.master.show_message("ckey: Invalid argument(s) supplied.")
 						else
 							var_one = ckey(var_one)
-							//src.var_list[var_two] = var_one
 							set_data(var_two, var_one)
 					counter++
 
@@ -195,10 +193,8 @@ datum/task/proc/parse()
 							switch(mode)
 								if("source")
 									set_data(t1[2], snd.s_source)
-									//src.var_list["[t1[2]]"] = snd.s_source
 								if("data")
 									set_data(t1[2], snd.text)
-									//src.var_list["[t1[2]]"] = snd.text
 
 					counter++
 
@@ -218,7 +214,6 @@ datum/task/proc/parse()
 							h_bound = text2num(get_data(t1[3]))
 							variable = t1[4]
 							result = rand(l_bound,h_bound)
-						//src.var_list["[variable]"] = "[result]"
 						set_data(variable, "[result]")
 					counter++
 
@@ -244,7 +239,6 @@ datum/task/proc/parse()
 							data = count
 						else
 							data = length(data)
-						//src.var_list["[t1[2]]"] = data
 						set_data(t1[2], "[data]")
 					else
 						if (istype(src.var_list["[copytext(t1[2], 1, temp)]"], /list))
@@ -277,10 +271,8 @@ datum/task/proc/parse()
 							end = text2num(get_data(t1[5]))
 						if(start <= 0) start = 1
 						if(end < length(string))
-							//src.var_list["[variable]"] = copytext(string,start,end+1)
 							set_data(variable, copytext(string,start,end+1))
 						else
-							//src.var_list["[variable]"] = copytext(string,start)
 							set_data(variable, copytext(string,start))
 					counter++
 				if("replacetext")
@@ -295,7 +287,6 @@ datum/task/proc/parse()
 						if(length(string) >= 5000) string = copytext(string,1,5001)
 						if(length(find) >= 5000) find = copytext(find,1,5001)
 						if(length(replace) >= 5000) replace = copytext(replace,1,5001)
-						//src.var_list["[variable]"] = replacetext(string,find,replace)
 						set_data(variable, replacetext(string,find,replace))
 					counter++
 				if("findtext")
@@ -316,13 +307,10 @@ datum/task/proc/parse()
 						if(end > length(string)) end = length(string)
 						if(start)
 							if(end)
-								//src.var_list["[variable]"] = findtext(string,find,start,end)
 								set_data(variable, findtext(string,find,start,end))
 							else
-								//src.var_list["[variable]"] = findtext(string,find,start)
 								set_data(variable, findtext(string,find,start))
 						else
-							//src.var_list["[variable]"] = findtext(string,find)
 							set_data(variable, findtext(string,find))
 					counter++
 				if("list_moveup","moveup_list")
@@ -388,25 +376,21 @@ datum/task/proc/parse()
 							src.var_list["[t1[3]]"] = "[F.text]"*/
 					counter++
 				if("round")
-					//src.var_list["[t1[3]]"] = round(text2num(get_data(t1[2])),1)
 					set_data(t1[3], "[round(text2num(get_data(t1[2])),1)]")
 					counter++
 				if("floor")
-					//src.var_list["[t1[3]]"] = round(text2num(get_data(t1[2])))
 					set_data(t1[3], "[round(text2num(get_data(t1[2])))]")
 					counter++
 				if("frac")
 					var/number_one = get_data(t1[2])
 					if(findtext(number_one,"."))
 						var/dec_pos = findtext(number_one,".")
-						//src.var_list["[t1[3]]"] = copytext(number_one,dec_pos)
 						set_data(t1[3], copytext(number_one,dec_pos))
 					else
-						//src.var_list["[t1[3]]"] = "0"
 						set_data(t1[3], "0")
 					counter++
 				if("eval")
-					var/v1 = get_data(t1[2])//src.var_list["[t1[2]]"]
+					var/v1 = get_data(t1[2])
 					var/v2
 					if(t1.len >= 4)
 						v2 = get_data(t1[4])
@@ -460,35 +444,27 @@ datum/task/proc/parse()
 						if("++")
 							n++
 							set_data(t1[2], "[n]")
-							//src.var_list["[t1[2]]"] = "[n]"
 						if("--")
 							n--
 							set_data(t1[2], "[n]")
-							//src.var_list["[t1[2]]"] = "[n]"
 						if("<<")
 							n = n << n2
 							set_data(t1[2], "[n]")
-							//src.var_list["[t1[2]]"] = "[n]"
 						if(">>")
 							n = n >> n2
 							set_data(t1[2], "[n]")
-							//src.var_list["[t1[2]]"] = "[n]"
 						if("%")
 							n = n % n2
 							set_data(t1[2], "[n]")
-							//src.var_list["[t1[2]]"] = "[n]"
 						if("^")
 							n = n ^ n2
 							set_data(t1[2], "[n]")
-							//src.var_list["[t1[2]]"] = "[n]"
 						if("|")
 							n = n | n2
 							set_data(t1[2], "[n]")
-							//src.var_list["[t1[2]]"] = "[n]"
 						if("&")
 							n = n & n2
 							set_data(t1[2], "[n]")
-							//src.var_list["[t1[2]]"] = "[n]"
 
 						else
 							if (src.master)
@@ -550,16 +526,18 @@ datum/task/proc/parse()
 						counter++
 				if("linenum")
 					if (t1.len >= 2)
-						//src.var_list["[t1[2]]"] = counter
 						set_data(t1[2], "[counter]")
 						counter++
 				if("call")
 					if (t1.len >= 2)
-						goto_array["retptr"] = counter + 1
-						var/cnt = get_label("[t1[2]]", goto_array)
+						var/cnt = get_label(t1[2], goto_array)
 						if (cnt > 0)
+							set_data("retindex", "[text2num(get_data("retindex")) + 1]")
+							set_data("retstack:retindex", "[counter + 1]")
 							counter = cnt
-
+				if("return")
+					counter = get_label("$retstack:retindex")
+					set_data("retindex", "[text2num(get_data("retindex")) - 1]")
 				else
 					if(t1[1])
 						if (src.master)
