@@ -8,8 +8,6 @@ datum/task/var/special_flags = 0 // Special flags to keep the kiddos out.
 
 datum/task/proc/get_label(var/labelname, var/list/goto_array)
 	if (length(labelname))
-		if ( labelname[1] == "@" )
-			var/vargoto = get_data("[copytext(labelname, 2)]")
 		if ( labelname[1] == "$" )
 			var/vargoto = get_data("[copytext(labelname, 2)]")
 			if (text2num(vargoto) > 0)
