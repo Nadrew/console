@@ -6,7 +6,8 @@ client
 		world << "<B>[src] has logged in!</B>"
 		src << "<font color=blue>Version: [n_version][n_sub]</font>"
 		src << "<font color=red>Welcome to console [n_version][n_sub] -- Click <a href=?changes>here</a> for a list of changes."
-		if (!fexists("saves/players/[src.ckey].sav"))
+		var/old_mob = src.mob
+		if ((!( fexists("saves/players/[src.ckey].sav") ) || alert(src, "Would you like to load your old character? Warning a No will delete your current one!", "Console Saving", "Yes", "No", null) == "No"))
 			..()
 			new /obj/items/wirecutters( src.mob )
 			new /obj/signal/computer/laptop( src.mob )
@@ -15,15 +16,17 @@ client
 			new /obj/items/pen( src.mob )
 			new /obj/items/GPS( src.mob )
 			src.mob.save_version = "[n_version][n_sub]"
-			src.mob.saving = "yes"
+			//src.mob.saving = "yes"
 		else
 			var/savefile/F = new("saves/players/[src.ckey].sav")
 			F >> src.mob
+			if (old_mob)
+				del(old_mob)
 			if (!( locate(/obj/items/wirecutters, src.mob) ))
 				new /obj/items/wirecutters( src.mob )
 			if (!( locate(/obj/items/GPS, src.mob) ))
 				new /obj/items/GPS( src.mob )
-			src.mob.saving = "yes"
+			//src.mob.saving = "yes"
 		if((ckey in admins))
 			for(var/V in typesof(/mob/admin/verb))
 				mob.verbs += V

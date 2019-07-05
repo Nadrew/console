@@ -16,6 +16,7 @@
 #include "code\changelog\changes.dm"
 #include "code\client\client.dm"
 #include "code\client\zooming.dm"
+#include "code\effect\boom.dm"
 #include "code\hardware\antenna.dm"
 #include "code\hardware\bounce.dm"
 #include "code\hardware\computer.dm"

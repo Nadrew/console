@@ -1,6 +1,6 @@
 <hr>
 Rockdtben Fork of Console: https://github.com/Rockdtben/console
-Discord: https://discord.gg/fSzdEc
+Discord: https://discord.gg/ns2Aeu4
 Issue Tracker: https://github.com/Rockdtben/console/issues
 
 <b>Getting Started</b>
@@ -9,4 +9,6 @@ Check the Library (South West) for the Basic Computing Book for a tutorial on wr
 Check Help -> <b>ExCode Reference</b> for a list of commands.
 
 Check Help -> <b>RouterHelp</b> for a demo of wiring routers.
+
+Note: Player inventory saving is disabled for now.
 <hr>
