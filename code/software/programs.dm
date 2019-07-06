@@ -57,8 +57,7 @@ datum/task/proc/get_data(string in view(usr.client))
 	else
 		var/temp = findtext(string, ":", 1, null)
 		if (!( temp ))
-			var/thing = src.var_list["[string]"]
-			return thing
+			return src.var_list["[string]"]
 		else
 			if (istype(src.var_list["[copytext(string, 1, temp)]"], /list))
 				var/L = src.var_list["[copytext(string, 1, temp)]"]
