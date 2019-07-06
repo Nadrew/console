@@ -500,8 +500,7 @@ datum/task/proc/parse()
 									if (v1.compare(v2))
 										go_on = 1
 								else
-									if(isnum(v1)) v2 = text2num(v2)
-									if ((v1) == (v2))
+									if (v1 == v2)
 										go_on = 1
 							if("!=","<>")
 								var/datum/file/v1 = src.get_data(t1[2])
