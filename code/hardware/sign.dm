@@ -93,12 +93,12 @@ obj
 				maptext_dummy.maptext_width = 96
 				maptext_shadow.maptext_width = maptext_dummy.maptext_width
 				maptext_dummy.maptext = {"
-				<font color="[text_color]" face="Terminal" style="font-size: 7px; text-align:center;">
+				<font color="[text_color]" face="Terminal" style="font-size: 7px;">
 					[text]
 				</font>
 				"}
 				maptext_shadow.maptext = {"
-				<font align=center color="[shadow]" face="Terminal" style="font-size: 7px;">
+				<font color="[shadow]" face="Terminal" style="font-size: 7px;">
 					[text]
 				</font>
 				"}
