@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dreammaker",
+			"dme": "console.dme",
+			"problemMatcher": [
+				"$dreammaker"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "dm: build - console.dme",
+			"options": {
+				"env": {
+					"DM_EXE": "${config:dreammaker.byondPath}"
+				}
+			},
+			"presentation": {
+				"clear": true, // Before starting a new session in an terminal, clear the terminal.
+				"panel": "shared"
+			}
+		}
+	]
+}
