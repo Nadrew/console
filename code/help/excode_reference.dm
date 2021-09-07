@@ -173,6 +173,11 @@ Reference
 			format = "replacetext;variable;string;needle;replacement"
 			arguments = "variable: The variable to dump the result.;string: The string to search.;needle: The string to locate.;replacement: The string to replace needle with."
 			extra_content = "(I know, it's weird-formatted, didn't want to break old code) The replacetext function allows to to find and replace a string within a string."
+		sndsrc
+			title = "sndsrc"
+			format = "sndsrc;variable;path;source/data"
+			arguments = "variable: The variable to store the resulting data in.;path: The name of the file to parse.;source/data: source is who/what made the sound | data is the sound made"
+			extra_content = "The sndsrc (Sound Source) function allows you to identify sound sources and to parse sounds"
 		set_stuff
 			title = "set"
 			format = "set;variable;value"

@@ -50,6 +50,9 @@ function expand(version){
 - Door_Codes are set via a config file.<br>
 - Admins are set via a config file.<br>
 - Fixes a bug in hubs/routers preventing wiring.<br>
+- Fixes a bug where whipsers allowed html.<br>
+- Fixes a bug where items were not saving location<br>
+- Save Players before reboot.<br>
 <br>
 </div>
 <hr>

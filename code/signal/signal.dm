@@ -29,10 +29,10 @@ obj/signal
 	process_signal(obj/signal/structure/S,atom/source)
 		if(signal_hit>=max_signal)
 			if(istype(source,/obj/signal/wire))
-				var /area/boom_loc = source.loc
+				//var /area/boom_loc = source.loc
 				spawn(0)
 					del(source)
-					new /image/boom(loc=boom_loc)
+					//new /image/boom(loc=boom_loc)
 			del(S)
 		signal_hit++
 		spawn(20)
